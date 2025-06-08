@@ -14,6 +14,45 @@
     margin-bottom: 20px;
 }
 
+.sort-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0;
+}
+
+.sort-dropdown label {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 1rem;
+}
+
+.sort-dropdown select {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right, #dbeafe, #bfdbfe);
+    color: #1e3a8a;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231e3a8a" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 36px;
+    transition: all 0.3s ease;
+}
+
+.sort-dropdown select:hover {
+    background: linear-gradient(to right, #bfdbfe, #93c5fd);
+}
+
 .join-btn {
     background: linear-gradient(135deg, white 0%, blueviolet 100%);
     padding: 3px 6px;
@@ -80,6 +119,7 @@
 }
 
 .vol-card {
+    justify-content: space-between;
     background: white;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -94,6 +134,58 @@
 .vol-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.reviews-section {
+    background: #ecfeff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reviews-section h2 {
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.reviews-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+}
+
+.review-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 25px 30px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: #facc15;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    color: #334155;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.review-card h4 {
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .cta {
@@ -114,5 +206,12 @@
 @media (max-width: 600px) {
     .card-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .sort-dropdown {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
