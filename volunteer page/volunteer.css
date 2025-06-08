@@ -1,0 +1,58 @@
+body {
+    background-color: burlywood;
+    margin: 20px;
+}
+
+.volunteer-card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    width: 15%;
+    height: 420px;
+    border: 2px;
+    background-color: rgba(0, 0, 100, 0.6);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: poppins;
+}
+
+.info {
+    font-size: 80%;
+    width: 80%;
+    height: 250px;
+    border: 2px;
+    background-color: rgba(0, 100, 0, 0.6);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 3%;
+    font-family: poppins;
+}
+
+.join-btn {
+    background: linear-gradient(135deg, white 0%, blueviolet 100%);
+    padding: 3px 6px;
+    border: none;
+    width: 48%;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn:hover {
+    background: linear-gradient(135deg, white 0%, red 100%);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
