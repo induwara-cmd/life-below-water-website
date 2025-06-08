@@ -144,7 +144,7 @@
 }
 
 .reviews-section h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #0f172a;
     margin-bottom: 40px;
 }
@@ -186,6 +186,59 @@
     color: #0f172a;
     font-weight: 600;
     font-size: 1rem;
+}
+
+.feedback-section {
+    background: linear-gradient(to right, #e0f2fe, #cffafe);
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feedback-section h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    resize: none;
+}
+
+.feedback-form textarea {
+    min-height: 120px;
+}
+
+.feedback-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form button:hover {
+    background-color: #1e40af;
 }
 
 .cta {
