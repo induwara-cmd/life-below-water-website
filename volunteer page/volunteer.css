@@ -32,7 +32,7 @@
     padding: 10px 16px;
     border: none;
     border-radius: 12px;
-    background: linear-gradient(to right, #dbeafe, #bfdbfe);
+    background: linear-gradient(to right, #d8d3cd, #c3d3d4);
     color: #1e3a8a;
     font-size: 1rem;
     font-weight: 500;
@@ -50,11 +50,11 @@
 }
 
 .sort-dropdown select:hover {
-    background: linear-gradient(to right, #bfdbfe, #93c5fd);
+    background: linear-gradient(to right, #b8dadb, #3d8a9e);
 }
 
 .join-btn {
-    background: linear-gradient(135deg, white 0%, blueviolet 100%);
+    background: linear-gradient(135deg, #d8d3cd 0%, #b8dadb 100%);
     padding: 3px 6px;
     border: none;
     width: 48%;
@@ -74,8 +74,7 @@
 }
 
 .btn {
-    background: linear-gradient(135deg, #facc15 0%, blue 100%);
-    background-color: #facc15;
+    background: linear-gradient(135deg, #d8d3cd 0%, #7ba7b0 100%);
     padding: 12px 24px;
     color: black;
     font-size: 16px;
@@ -89,7 +88,7 @@
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #ffd941 0%, blueviolet 100%);
+    background: linear-gradient(135deg, #c3d3d4 0%, #3d8a9e 100%);
     background-color: #eab308;
     transform: scale(1.05);
     transition: 0.3s ease;
@@ -225,7 +224,7 @@
 }
 
 .feedback-form button {
-    background-color: #2563eb;
+    background-color: #7ba7b0;
     color: white;
     padding: 14px 20px;
     font-size: 1rem;
@@ -238,7 +237,7 @@
 }
 
 .feedback-form button:hover {
-    background-color: #1e40af;
+    background-color: #3d8a9e;
 }
 
 .cta {
