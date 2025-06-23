@@ -5,118 +5,119 @@
   <title>Life Below Water - Feedback</title>
   <link rel="stylesheet" href="global.css">
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* Ocean image */
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: #fff;
-    }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* Ocean image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+        }
 
-    .overlay {
-      background-color: rgba(0, 0, 50, 0.7);
-      min-height: 100vh;
-      padding: 50px 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+        .overlay {
+            background-color: rgba(0, 0, 50, 0.7);
+            min-height: 100vh;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(5px);
+        }
 
-    form {
-      background: rgba(255, 255, 255, 0.95);
-      padding: 30px;
-      border-radius: 15px;
-      max-width: 800px;
-      width: 100%;
-      color: #333;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    }
+        form {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 100%;
+            color: #333;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
 
-    h2 {
-      text-align: center;
-      color: #ffffff;
-      text-shadow: 1px 1px 4px #000;
-    }
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 1px 1px 4px #000;
+        }
 
-    fieldset {
-      border: none;
-      margin-bottom: 25px;
-    }
+        fieldset {
+            border: none;
+            margin-bottom: 25px;
+        }
 
-    legend {
-      font-weight: bold;
-      font-size: 1.2em;
-      margin-bottom: 10px;
-      color: #006064;
-    }
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #006064;
+        }
 
-    label {
-      display: block;
-      margin-top: 12px;
-      font-weight: 600;
-    }
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: 600;
+        }
 
-    input, select, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #aaa;
-      border-radius: 6px;
-      font-size: 1em;
-      background: #f9f9f9;
-    }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+            font-size: 1em;
+            background: #f9f9f9;
+        }
 
-    input[type="radio"],
-    input[type="checkbox"] {
-      width: auto;
-      margin-right: 5px;
-    }
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
 
-    .rating span {
-      font-size: 28px;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      display: inline-block;
-    }
+        .rating span {
+            font-size: 28px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            display: inline-block;
+        }
 
-    .rating span:hover {
-      color: gold;
-      transform: scale(1.3);
-    }
+        .rating span:hover {
+            color: gold;
+            transform: scale(1.3);
+        }
 
-    .submit-btn {
-      background: #00796b;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 1em;
-      margin-top: 20px;
-      transition: background 0.3s ease;
-    }
+        .submit-btn {
+            background: #00796b;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
 
-    .submit-btn:hover {
-      background: #004d40;
-    }
+        .submit-btn:hover {
+            background: #004d40;
+        }
 
-    .char-count {
-      font-size: 0.9em;
-      color: #555;
-    }
+        .char-count {
+            font-size: 0.9em;
+            color: #555;
+        }
 
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      color: #eee;
-    }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #eee;
+        }
 
-    footer a {
-      color: #ffffff;
-      text-decoration: underline;
-    }
+        footer a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
   </style>
 </head>
 <body>
@@ -192,7 +193,6 @@
         <label for="upload">Upload Attachment (Image or PDF):</label>
         <input type="file" id="upload" name="upload" accept=".jpg,.png,.pdf">
 
-        <label>Rate Us:</label>
         <label>Rate Us:</label>
     <div class="rating">
         <span title="Very Happy">😁</span>
