@@ -1,12 +1,14 @@
 .hero {
+    margin-top: 150px;
     background: linear-gradient(to bottom right, #1e3a8a, #0ea5e9);
     color: white;
     font-family: poppins;
     padding: 30px 20px;
     text-align: center;
-    background-image: url('Images/background.jpg');
+    background-image: url('Images/marine\ wildlife.jpg');
     background-size: cover;
     background-position: center;
+    height: 250px;
 }
 
 .hero h1 {
