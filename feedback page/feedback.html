@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Life Below Water - Feedback</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="global.css">
   <style>
         body {
             margin: 0;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: poppins;
             background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* Ocean image */
             background-size: cover;
             background-position: center;
@@ -25,16 +26,6 @@
             align-items: center;
             backdrop-filter: blur(5px);
         }
-
-        .overlay {
-              backdrop-filter: blur(5px);
-              background-color: rgba(0, 0, 50, 0.7);
-              min-height: 100vh;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-        }
-
 
         form {
             background: rgba(255, 255, 255, 0.95);
@@ -138,24 +129,24 @@
       <fieldset>
         <legend>Personal Details</legend>
 
-        <label for="name">Full Name:</label>
+        <label for="name">Full Name:<span style="color:red">*</span></label>
         <input type="text" id="name" name="name" required maxlength="50" title="Please enter your full name">
 
-        <label for="email">Email Address:</label>
+        <label for="email">Email Address:<span style="color:red">*</span></label>
         <input type="email" id="email" name="email" required title="Please enter a valid email address">
 
-        <label for="phone">Telephone Number:</label>
+        <label for="phone">Telephone Number:<span style="color:red">*</span></label>
         <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required title="Enter a 10-digit phone number">
 
-        <label for="address">Address:</label>
+        <label for="address">Address:<span style="color:red">*</span></label>
         <textarea id="address" name="address" rows="3" maxlength="150" required title="Please enter your address"></textarea>
       </fieldset>
 
       <fieldset>
         <legend>Feedback Details</legend>
 
-        <label for="topic">Select a Topic:</label>
-        <select id="topic" name="topic">
+        <label for="topic">Select a Topic:<span style="color:red">*</span></label>
+        <select id="topic" name="topic" required>
           <option>Marine Pollution</option>
           <option>Endangered Species</option>
           <option>Coral Reefs</option>
@@ -163,8 +154,8 @@
           <option>Ocean Protection</option>
         </select>
 
-        <label for="interest">Interested Areas:</label>
-        <select id="interest" name="interest" multiple size="4">
+        <label for="interest">Interested Areas:<span style="color:red">*</span></label>
+        <select id="interest" name="interest" multiple size="4" required>
           <option>Clean-up campaigns</option>
           <option>Conservation projects</option>
           <option>Marine research</option>
@@ -180,23 +171,22 @@
           <option value="School Project">
         </datalist>
 
-        <label>Would you recommend our website?</label>
-        <input type="radio" name="recommend" value="yes"> Yes
+        <label>Would you recommend our website?<span style="color:red">*</span></label>
+        <input type="radio" name="recommend" value="yes" required> Yes
         <input type="radio" name="recommend" value="no"> No
 
-        <label>What did you find useful?</label>
-        <input type="checkbox" name="useful" value="Design"> Design
-        <input type="checkbox" name="useful" value="Content"> Content
-        <input type="checkbox" name="useful" value="Resources"> Resources
+        <label>What did you find useful?<span style="color:red">*</span></label>
+        <input type="checkbox" name="useful" value="Design" required> Design
+        <input type="checkbox" name="useful" value="Content" required> Content
+        <input type="checkbox" name="useful" value="Resources" required> Resources
 
         <label for="comment">Your Comments:</label>
         <textarea id="comment" name="comment" rows="4" maxlength="200" required
-                  oninput="document.getElementById('count').textContent = 200 - this.value.length"
                   title="Max 200 characters."></textarea>
         <p class="char-count">Characters remaining: <span id="count">200</span></p>
 
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date">
+        <label for="date">Date:<span style="color:red">*</span></label>
+        <input type="date" id="date" name="date" required>
 
         <label for="datetime">Preferred Feedback Time:</label>
         <input type="datetime-local" id="datetime" name="datetime">
