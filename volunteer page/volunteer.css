@@ -1,0 +1,271 @@
+.hero {
+    margin-top: 150px;
+    background: linear-gradient(to bottom right, #1e3a8a, #0ea5e9);
+    color: white;
+    font-family: poppins;
+    padding: 30px 20px;
+    text-align: center;
+    background-image: url('Images/marine\ wildlife.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sort-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0;
+}
+
+.sort-dropdown label {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 1rem;
+}
+
+.sort-dropdown select {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right, #d8d3cd, #c3d3d4);
+    color: #1e3a8a;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231e3a8a" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 36px;
+    transition: all 0.3s ease;
+}
+
+.sort-dropdown select:hover {
+    background: linear-gradient(to right, #b8dadb, #3d8a9e);
+}
+
+.join-btn {
+    background: linear-gradient(135deg, #d8d3cd 0%, #b8dadb 100%);
+    padding: 3px 6px;
+    border: none;
+    width: 48%;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn:hover {
+    background: linear-gradient(135deg, white 0%, red 100%);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background: linear-gradient(135deg, #d8d3cd 0%, #7ba7b0 100%);
+    padding: 12px 24px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #c3d3d4 0%, #3d8a9e 100%);
+    background-color: #eab308;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.program-section {
+    padding: 60px 20px;
+    background-color: #dff0fb;
+    text-align: center;
+}
+
+.program-section h2 {
+    font-family: poppins;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0f172a;
+}
+
+.card-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards in a row */
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.vol-card {
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vol-card h3 {
+    font-family: poppins;
+}
+
+.vol-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.reviews-section {
+    background: #ecfeff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reviews-section h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.reviews-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+}
+
+.review-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 25px 30px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: #facc15;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    color: #334155;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.review-card h4 {
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.feedback-section {
+    background: linear-gradient(to right, #e0f2fe, #cffafe);
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feedback-section h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    resize: none;
+}
+
+.feedback-form textarea {
+    min-height: 120px;
+}
+
+.feedback-form button {
+    background-color: #7ba7b0;
+    color: white;
+    padding: 14px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form button:hover {
+    background-color: #3d8a9e;
+}
+
+.cta {
+    font-family: poppins;
+    background: linear-gradient(to right, #06b6d4, #3b82f6);
+    background-image: url(Images/marine\ wildlife.jpg);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .sort-dropdown {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
