@@ -14,8 +14,8 @@ body {
       display: flex;
       flex-wrap: wrap;
     }
-
-    nav {
+    
+    .nav1 {
       flex: 1;
       width: 10%;
       background-color: #202A44;
@@ -26,11 +26,11 @@ body {
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     }
 
-    nav h3 {
+    .nav1 h3 {
       color: white
         }
 
-    nav a {
+    .nav1 a {
       display: block;
       margin: 15px 0;
       color: white;
@@ -39,10 +39,10 @@ body {
       transition: 0.3s;
     }
 
-    nav a:hover {
+    .nav1 a:hover {
       text-decoration: underline;
     }
-
+    
     .main1 {
       flex: 3;
       padding: 40px;
@@ -64,7 +64,7 @@ body {
       margin-bottom: 15px;
     }
 
-    img {
+    .imgg {
       max-width: 100%;
       height: auto;
       border-radius: 12px;
@@ -95,12 +95,13 @@ body {
         align-self: right;
         flex-direction: column;
       }
-
-      nav {
+      
+      .nav1 {
         width: 20%;
         height: auto;
         position: relative;
       }
+      
 
       .main1 {
         width: 100%;
