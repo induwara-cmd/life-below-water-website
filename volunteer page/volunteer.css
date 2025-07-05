@@ -1,11 +1,10 @@
 .hero {
     margin-top: 150px;
-    background: linear-gradient(to bottom right, #1e3a8a, #0ea5e9);
+    background: linear-gradient(to right, #1e3a8a, #ecfeff);
     color: white;
     font-family: poppins;
     padding: 30px 20px;
     text-align: center;
-    background-image: url('Images/marine\ wildlife.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -76,7 +75,7 @@
 }
 
 .btn {
-    background: linear-gradient(135deg, #d8d3cd 0%, #7ba7b0 100%);
+    background: #d8d3cd;
     padding: 12px 24px;
     color: black;
     font-size: 16px;
@@ -90,8 +89,8 @@
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #c3d3d4 0%, #3d8a9e 100%);
-    background-color: #eab308;
+    background: #3d8a9e;
+    color: #fff;
     transform: scale(1.05);
     transition: 0.3s ease;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
@@ -244,8 +243,7 @@
 
 .cta {
     font-family: poppins;
-    background: linear-gradient(to right, #06b6d4, #3b82f6);
-    background-image: url(Images/marine\ wildlife.jpg);
+    background: linear-gradient(to right, #06b6d4, #ecfeff);
     color: white;
     padding: 60px 20px;
     text-align: center;
