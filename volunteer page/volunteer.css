@@ -123,6 +123,7 @@
 
 .join-btn:hover {
     background: #7ba7b0;
+    color: #fff;
     transform: scale(1.05);
     transition: 0.3s ease;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
