@@ -7,10 +7,11 @@
         line-height: 1.8;
     }
 
-<<<<<<< HEAD
+
     h1,h3 {text-align: center;
           margin-top: 100px;
-=======
+    }
+
     h1 {
         padding: 20px 10px 20px;
         background-color: #B8DADB;
@@ -19,7 +20,7 @@
 
     h3 {
         text-align: center;
->>>>>>> a3b0b7d6fdb656faf9786309ca1d8f5a8db4e5c8
+
     }
 
     .container {
