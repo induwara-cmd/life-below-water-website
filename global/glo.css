@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: poppins;
 }
 
@@ -13,7 +13,6 @@ header {
     width: 100%;
     padding: 5px 50px;
     background-color: #015E7F;
-    background: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
