@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocean Conservation Initiative - Site Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      color: #333;
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 1rem 0;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2E86AB;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 3rem;
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+
+    .subtitle {
+      color: #f0f0f0;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .sitemap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    a.node, a.sub-node {
+      background: #fff;
+      padding: 15px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      font-weight: 500;
+      min-width: 180px;
+      color: #333;
+      text-decoration: none;
+      outline: none;
+    }
+
+    a.node:focus, a.sub-node:focus, a.node:hover, a.sub-node:hover {
+      box-shadow: 0 0 0 4px #2E86AB44;
+      background-color: #f5f5f5;
+    }
+
+    .main-node {
+      background: linear-gradient(135deg, #2E86AB, #A23B72);
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+
+    .splash-node {
+      background: linear-gradient(135deg, #1B998B, #2E86AB);
+      color: #fff !important;
+    }
+
+    .level-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .branch-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .sub-nodes {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .connection {
+      width: 4px;
+      height: 40px;
+      background: linear-gradient(to bottom, #2E86AB, #1B998B);
+      border-radius: 2px;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-section h3 {
+      color: #2E86AB;
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="https://via.placeholder.com/60x60/2E86AB/FFFFFF?text=🌊" alt="Ocean Conservation Logo">
+    <h2>Ocean Conservation Initiative</h2>
+  </header>
+
+  <h1>🗺️ Site Map</h1>
+  <p class="subtitle">Navigate through our Ocean Conservation Platform</p>
+
+  <div class="sitemap">
+    <a href="../splash screen/splash.html" class="node splash-node">🌊 Splash Page</a>
+    <div class="connection"></div>
+
+    <a href="../home page/homepage.html" class="node main-node">🏠 Home</a>
+    <div class="connection"></div>
+
+    <div class="level-container">
+      <div class="branch-group">
+        <a href="../volunteer page/volunteer.html" class="node">🤝 Volunteer</a>
+      </div>
+      <div class="branch-group">
+        <a href="../table/table.html" class="node">📊 Data Table</a>
+      </div>
+      <div class="branch-group">
+        <a href="../user profile page/userprofile.html" class="node">👤 User Profile</a>
+      </div>
+      <div class="branch-group">
+        <a href="../feedback page/feedback.html" class="node">💬 Feedback</a>
+      </div>
+      <div class="branch-group">
+        <a href="../team page/team1.html" class="node">👥 Team</a>
+      </div>
+    </div>
+
+    <div class="connection"></div>
+
+    <div class="level-container">
+      <div class="branch-group">
+        <a href="#" class="node">✏️ Page Editor</a>
+        <div class="connection"></div>
+        <div class="sub-nodes">
+          <a href="#" class="sub-node">📚 Student 01 - Marine Biology</a>
+          <a href="#" class="sub-node">📚 Student 02 - Pollution Analysis</a>
+          <a href="#" class="sub-node">📚 Student 03 - Species Documentation</a>
+          <a href="#" class="sub-node">📚 Student 04 - Conservation Strategies</a>
+        </div>
+      </div>
+
+      <div class="branch-group">
+        <a href="#" class="node">📄 Content Pages</a>
+        <div class="connection"></div>
+        <div class="sub-nodes">
+          <a href="../content page/contentpage_SD4.html" class="sub-node">🏭 Marine Pollution</a>
+          <a href="#" class="sub-node">🐋 Endangered Species</a>
+          <a href="../content page/contentpage2.html" class="sub-node">🪸 Coral Reef Ecosystem</a>
+          <a href="../content page/contentpagemaleesha.html" class="sub-node">🎣 Sustainable Fishing</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Ocean Conservation Initiative</h3>
+        <p>Dedicated to protecting marine life and promoting sustainable ocean practices through research, education, and community engagement.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Site Navigation</h3>
+        <p>Use the interactive site map above to navigate to different pages.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Student Editors</h3>
+        <ul>
+          <li>Student 1 - Marine Biology</li>
+          <li>Student 2 - Pollution Analysis</li>
+          <li>Student 3 - Species Documentation</li>
+          <li>Student 4 - Conservation Strategies</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ocean Conservation Initiative. All Rights Reserved.</p>
+      <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+    </div>
+  </footer>
+</body>
+</html>
