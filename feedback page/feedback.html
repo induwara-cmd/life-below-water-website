@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Life Below Water - Feedback</title>
+  <link rel="stylesheet" href="../global/global.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="global.css">
+  
   <style>
         body {
             margin: 0;
@@ -38,6 +39,7 @@
         }
 
         h2 {
+            margin-top: 200px;
             text-align: center;
             color: #ffffff;
             text-shadow: 1px 1px 4px #000;
@@ -109,21 +111,22 @@
             font-size: 0.9em;
             color: #555;
         }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #eee;
-        }
-
-        footer a {
-            color: #ffffff;
-            text-decoration: underline;
-        }
   </style>
 </head>
 <body>
-  <h2>Feedback Form - Life Below Water</h2>
+  <!-- Header with Navigation -->
+    <header>
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="profile.html">Profile</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="team.html">Team</a>
+        </nav>  
+    </header>
+  <h2>Feedback Form - Aquaverse</h2>
   <div class="overlay">
     <form>
       <fieldset>
@@ -172,8 +175,7 @@
         </datalist>
 
         <label>Would you recommend our website?<span style="color:red">*</span></label>
-        <input type="radio" name="recommend" value="yes" required> Yes
-        <input type="radio" name="recommend" value="no"> No
+        <pre><input type="radio" name="recommend" value="yes" required> Yes                            <input type="radio" name="recommend" value="no"> No</pre>
 
         <label>What did you find useful?<span style="color:red">*</span></label>
         <input type="checkbox" name="useful" value="Design" required> Design
@@ -209,8 +211,48 @@
     </form>
   </div>
 
-  <footer>
-    <p><a href="editor-student3.html">Go to Student 3's Editor Page</a></p>
-  </footer>
-</body>
-</html>
+  <!-- Footer with Editor Page Link -->
+    <footer>
+        <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+            <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+            <p>
+                Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                resources, and community engagement for a cleaner, healthier planet.
+            </p>
+            </div>
+
+            <div class="footer-section links">
+            <h3><u>Links</u></h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Volunteer</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-section editors">
+            <h3><u>Editors</u></h3>
+            <ul>
+                <li><a href="pageEditor_ST1.html">Student 1</a></li>
+                <li><a href="pageEditor_ST2.html">Student 2</a></li>
+                <li><a href="pageEditor_ST3.html">Student 3</a></li>
+                <li><a href="pageEditor_ST4.html">Student 4</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
+    </footer>
+  
+  </body>
+  </html>
