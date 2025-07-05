@@ -7,6 +7,11 @@
         line-height: 1.8;
     }
 
+
+    h1,h3 {text-align: center;
+          margin-top: 100px;
+    }
+
     h1 {
         padding: 20px 10px 20px;
         background-color: #B8DADB;
@@ -15,7 +20,11 @@
 
     h3 {
         text-align: center;
+<<<<<<< HEAD
         padding: 10px;
+=======
+
+>>>>>>> dcc4a80149cd9b1c328fdfbdf06a0897c9c0f085
     }
 
     .container {

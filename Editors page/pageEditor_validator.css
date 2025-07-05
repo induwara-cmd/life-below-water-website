@@ -1,8 +1,9 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: poppins;
     margin: 0;
     padding: 0;
+    background-color: #c7e6f5;
 }
 
 .container {
@@ -28,12 +29,6 @@ section {
     border: 1px solid #ddd;
     background-color: #fafafa;
 }
-header, footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
 
 .ref li{
     list-style: none;
@@ -50,16 +45,18 @@ aside li{
 
 .stud {
     text-align: center;
-    line-height: 0;
-    background-color: #cbccc2ef;
+    line-height: 3px;
+    background-color: #202A44;
     color: white;
     margin-top: 8px;
+    margin-top: 120px;
+    padding: 30px;
 }
 
 .top {
     position: fixed;
     bottom: 5%;
-    right: 5%;
+    right: 10%;
 }
         
 .top a {
