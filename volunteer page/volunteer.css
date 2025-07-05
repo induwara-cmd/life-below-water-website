@@ -54,26 +54,6 @@
     background: linear-gradient(to right, #b8dadb, #3d8a9e);
 }
 
-.join-btn {
-    background: linear-gradient(135deg, #d8d3cd 0%, #b8dadb 100%);
-    padding: 3px 6px;
-    border: none;
-    width: 48%;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.join-btn:hover {
-    background: linear-gradient(135deg, white 0%, red 100%);
-    transform: scale(1.05);
-    transition: 0.3s ease;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-}
-
 .btn {
     background: #d8d3cd;
     padding: 12px 24px;
@@ -120,11 +100,32 @@
 
 .vol-card {
     justify-content: space-between;
+    height: 500px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-btn {
+    background: linear-gradient(135deg, #d8d3cd 0%, #b8dadb 100%);
+    padding: 3px 4px;
+    border: none;
+    width: 48%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn:hover {
+    background: linear-gradient(135deg, white 0%, red 100%);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
 .vol-card h3 {
