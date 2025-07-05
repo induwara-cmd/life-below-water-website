@@ -1,11 +1,10 @@
 .hero {
-    margin-top: 150px;
-    background: linear-gradient(to bottom right, #1e3a8a, #0ea5e9);
+    margin-top: 120px;
+    background: linear-gradient(to right, #1e3a8a, #ecfeff);
     color: white;
     font-family: poppins;
     padding: 30px 20px;
     text-align: center;
-    background-image: url('Images/marine\ wildlife.jpg');
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -55,28 +54,8 @@
     background: linear-gradient(to right, #b8dadb, #3d8a9e);
 }
 
-.join-btn {
-    background: linear-gradient(135deg, #d8d3cd 0%, #b8dadb 100%);
-    padding: 3px 6px;
-    border: none;
-    width: 48%;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.join-btn:hover {
-    background: linear-gradient(135deg, white 0%, red 100%);
-    transform: scale(1.05);
-    transition: 0.3s ease;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-}
-
 .btn {
-    background: linear-gradient(135deg, #d8d3cd 0%, #7ba7b0 100%);
+    background: #d8d3cd;
     padding: 12px 24px;
     color: black;
     font-size: 16px;
@@ -90,8 +69,8 @@
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #c3d3d4 0%, #3d8a9e 100%);
-    background-color: #eab308;
+    background: #3d8a9e;
+    color: #fff;
     transform: scale(1.05);
     transition: 0.3s ease;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
@@ -121,11 +100,32 @@
 
 .vol-card {
     justify-content: space-between;
+    height: 500px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     padding: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-btn {
+    background: #b8dadb;
+    padding: 3px 4px;
+    border: none;
+    width: 48%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn:hover {
+    background: #7ba7b0;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
 .vol-card h3 {
@@ -244,8 +244,7 @@
 
 .cta {
     font-family: poppins;
-    background: linear-gradient(to right, #06b6d4, #3b82f6);
-    background-image: url(Images/marine\ wildlife.jpg);
+    background: linear-gradient(to right, #06b6d4, #ecfeff);
     color: white;
     padding: 60px 20px;
     text-align: center;
