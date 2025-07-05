@@ -13,7 +13,6 @@ header {
     width: 100%;
     padding: 5px 50px;
     background-color: #015E7F;
-    background: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,9 +52,8 @@ header {
 }
 
 /* Add space below fixed header */
-main {
-    padding-top: 100px;
-}
+
+
 
 /* Example footer */
 .site-footer {
@@ -126,7 +124,12 @@ hr {
   color: #e0e0e0;
 }
 
-.wrapper h1{
+.tempwrapper{
     width: 100%;
     text-align: center;
+    padding: 40px;
+    margin: 207px auto;
+    background-color: white;
+    max-width: 1200px;
+    box-sizing: border-box;
 }
