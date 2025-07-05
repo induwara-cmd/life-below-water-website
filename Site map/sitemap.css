@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Poppins';
+  background: linear-gradient(#C7E6F5 0%);
   min-height: 100vh;
-  color: #333;
+  color:#7BA7B0;
   padding-bottom: 60px;
 }
 
@@ -21,14 +21,15 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color:#3D8A9E;
   font-size: 3rem;
   text-align: center;
   margin: 30px 0 10px;
+  margin-top: 100px;
 }
 
 .subtitle {
-  color: #f0f0f0;
+  color:#3D8A9E;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -41,7 +42,7 @@ h1 {
 }
 
 a.node, a.sub-node {
-  background: #fff;
+  background: #7BA7B0;
   padding: 15px 30px;
   border-radius: 12px;
   box-shadow: 0 8px 15px rgba(0,0,0,0.1);
@@ -54,20 +55,19 @@ a.node, a.sub-node {
 }
 
 a.node:focus, a.sub-node:focus, a.node:hover, a.sub-node:hover {
-  box-shadow: 0 0 0 4px #2E86AB44;
-  background-color: #f5f5f5;
+  box-shadow: 0 0 0 4px darkblue;
 }
 
 .main-node {
-  background: linear-gradient(135deg, #2E86AB, #A23B72);
-  color: #fff !important;
+  background: linear-gradient( #2E86AB,);
+  color:#333 !important;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .splash-node {
   background: linear-gradient(135deg, #1B998B, #2E86AB);
-  color: #fff !important;
+  color:#333 !important;
 }
 
 .level-container {
@@ -93,6 +93,6 @@ a.node:focus, a.sub-node:focus, a.node:hover, a.sub-node:hover {
 .connection {
   width: 4px;
   height: 40px;
-  background: linear-gradient(to bottom, #2E86AB, #1B998B);
+  background: linear-gradient(#3864d2);
   border-radius: 2px;
 }
