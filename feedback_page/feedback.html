@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life Below Water - Feedback</title>
+  <link rel="stylesheet" href="../global/global.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  
+  <style>
+        body {
+            margin: 0;
+            font-family: poppins;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* Ocean image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+
+        .overlay {
+            background-color: rgba(0, 0, 50, 0.7);
+            min-height: 100vh;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(5px);
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 100%;
+            color: #333;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            margin-top: 150px;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 1px 1px 4px #000;
+            padding-bottom: 50px;
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 25px;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #006064;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+            font-size: 1em;
+            background: #f9f9f9;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        .rating span {
+            font-size: 28px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            display: inline-block;
+        }
+
+        .rating span:hover {
+            color: gold;
+            transform: scale(1.3);
+        }
+
+        .submit-btn {
+            background: #00796b;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #004d40;
+        }
+
+        .char-count {
+            font-size: 0.9em;
+            color: #555;
+        }
+  </style>
+</head>
+<body>
+  <!-- Header with Navigation -->
+    <!-- Header with Navigation -->
+    <header>
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="../homeP_page/homepage.html">Home</a>
+            <a href="../volunteer_page/volunteer.html">Volunteer</a>
+            <a href="../user_profile_page/userprofile.html">Profile</a>
+            <a href="../feedback_page/feedback.html">Feedback</a>
+            <a href="../sitemap.html">Sitemap</a>
+            <a href="../team_page/team.html">Team</a>
+            <a href="../table/table.html">Table</a>
+        </nav>  
+    </header>
+  <h1>Feedback Form - Aquaverse</h1>
+  <div class="overlay">
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="name">Full Name:<span style="color:red">*</span></label>
+        <input type="text" id="name" name="name" required maxlength="50" title="Please enter your full name">
+
+        <label for="email">Email Address:<span style="color:red">*</span></label>
+        <input type="email" id="email" name="email" required title="Please enter a valid email address">
+
+        <label for="phone">Telephone Number:<span style="color:red">*</span></label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required title="Enter a 10-digit phone number">
+
+        <label for="address">Address:<span style="color:red">*</span></label>
+        <textarea id="address" name="address" rows="3" maxlength="150" required title="Please enter your address"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Feedback Details</legend>
+
+        <label for="topic">Select a Topic:<span style="color:red">*</span></label>
+        <select id="topic" name="topic" required>
+          <option value="" disabled selected hidden>Select a topic</option>
+          <option>Marine Pollution</option>
+          <option>Endangered Species</option>
+          <option>Coral Reefs</option>
+          <option>Sustainable Fishing</option>
+          <option>Ocean Protection</option>
+        </select>
+
+        <label for="interest">Interested Areas:<span style="color:red">*</span></label>
+        <select id="interest" name="interest" multiple size="4" required>
+          <option>Clean-up campaigns</option>
+          <option>Conservation projects</option>
+          <option>Marine research</option>
+          <option>Volunteering</option>
+        </select>
+
+        <label for="datalistInput">How did you hear about us?</label>
+        <input list="sources" id="datalistInput" name="source">
+        <datalist id="sources">
+          <option value="Social Media">
+          <option value="News">
+          <option value="Friends">
+          <option value="School Project">
+        </datalist>
+
+        <label>Would you recommend our website?<span style="color:red">*</span></label>
+        <pre><input type="radio" name="recommend" value="yes" required> Yes                            <input type="radio" name="recommend" value="no"> No</pre>
+
+        <label>What did you find useful?<span style="color:red">*</span></label>
+        <input type="checkbox" name="useful" value="Design" required> Design
+        <input type="checkbox" name="useful" value="Content" required> Content
+        <input type="checkbox" name="useful" value="Resources" required> Resources
+
+        <label for="comment">Your Comments:</label>
+        <textarea id="comment" name="comment" rows="4" maxlength="200" required
+                  title="Max 200 characters."></textarea>
+        <p class="char-count">Characters remaining: <span id="count">200</span></p>
+
+        <label for="date">Date:<span style="color:red">*</span></label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="datetime">Preferred Feedback Time:</label>
+        <input type="time" id="datetime" name="datetime">
+
+        <label for="upload">Upload Attachment (Image or PDF):</label>
+        <input type="file" id="upload" name="upload" accept=".jpg,.png,.pdf">
+
+        <label>Rate Us:</label>
+    <div class="rating">
+        <span title="Very Happy">😁</span>
+        <span title="Happy">😊</span>
+        <span title="Neutral">😐</span>
+        <span title="Unhappy">☹️</span>
+        <span title="Very Unhappy">😠</span>
+    </div>
+
+      </fieldset>
+
+      <button class="submit-btn" type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+  <!-- Footer with Editor Page Link -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+            <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+            <p>
+                Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                resources, and community engagement for a cleaner, healthier planet.
+            </p>
+            </div>
+
+            <div class="footer-section links">
+            <h3><u>Links</u></h3>
+            <ul>
+                <li><a href="../home_page/homepage.html">Home</a></li>
+                <li><a href="../volunteer_page/volunteer.html">Volunteer</a></li>
+                <li><a href="../userprofile_page/userprofile.html">Profile</a></li>
+                <li><a href="../feedback_page/feedback.html">Feedback</a></li>
+                <li><a href="../sitemap.html">Sitemap</a></li>
+                <li><a href="../team_page/team.html">Team</a></li>
+                <li><a href="../table/table.html">Table</a></li>
+                
+            </ul>
+            </div>
+
+            <div class="footer-section editors">
+            <h3><u>Editors</u></h3>
+            <ul>
+                <li><a href="pageEditor_ST1.html">Student 1</a></li>
+                <li><a href="pageEditor_ST2.html">Student 2</a></li>
+                <li><a href="pageEditor_ST3.html">Student 3</a></li>
+                <li><a href="pageEditor_ST4.html">Student 4</a></li>
+            </ul>
+            </div>
+
+             <div class="footer-section contact-info">
+                <h3><u>Contact</u></h3>
+                <ul>
+                    <li>Email: info@lifebelowwater.org</li>
+                    <li>Phone: +94 11 2238178</li>
+                    <li>Address: 172/9 Greenway street,<br>Colombo, Sri Lanka</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
+    </footer>
+
+  
+  </body>
+  </html>

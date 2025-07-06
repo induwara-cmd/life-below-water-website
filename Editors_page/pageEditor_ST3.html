@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - provide your student name</title>
+    <link rel="stylesheet" href="../global/global.css">
+    <link rel="stylesheet" href="pageEditor_validator.css"> <!-- External CSS link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header id="top">
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="../home page/homepage.html">Home</a>
+            <a href="../volunteer page/volunteer.html">Volunteer</a>
+            <a href="../user profile page/userprofile.html">Profile</a>
+            <a href="../feedback page/feedback.html">Feedback</a>
+            <a href="../sitemap.html">Sitemap</a>
+            <a href="../team page/team.html">Team</a>
+            <a href="../table/table.html">Table</a>
+        </nav>
+    </header>
+
+    <section class="stud">
+        <h2>S M Maleesha Ruwandi Bandaranayake, student 03</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+
+            <section>
+                <h2 id="splash">Feedback Form</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The HTML page begins with the declaration '!DOCTYPE html' to ensure the browser interprets it as an HTML5 document. The 'html lang="en"' tag defines the primary language of the content, which is helpful for screen readers and search engines. In the head section, a link to Google Fonts imports the 'Poppins' typeface, providing a clean and modern aesthetic across the page. The page also links to an external global stylesheet global.css for consistent styling throughout the website. The "meta charset="UTF-8" tag ensures proper character encoding, and the title tag gives the browser tab an appropriate title.</p>
+                                   <p> The structure of the page is organized into several sections using semantic HTML. The header contains a logo and a navigation bar implemented with nav and a tags, allowing users to easily access other parts of the site. A main heading (h1) is used to display the page title, ensuring it stands out and is accessible. The form itself is wrapped in a div with the class overlay, which applies a semi-transparent background and a blur effect, helping the form content stand out against the ocean-themed background image. The form tag groups all user input elements and is styled as a centered, card-like component.</p>
+                                    <p>The form is divided into logical groups using fieldset and legend elements. These tags improve the structure and accessibility of the form by visually and semantically grouping related fields. Input elements include a variety of types such as text, email, telephone, textarea, select dropdowns, radio buttons, checkboxes, date pickers, time inputs, and file uploads. These allow users to submit a wide range of feedback. The use of attributes such as required, maxlength, pattern, and title ensures proper validation and user guidance, improving the overall usability of the form. A datalist provides users with autocomplete suggestions, enhancing the user experience.</p>
+                                    <p>The footer of the page is well-structured, featuring three sections: an About area, a set of navigation links, and editor-specific links, all of which provide useful information and credit to contributors. A horizontal rule 'hr' separates the footer content from the final copyright.</p>
+                                    <p> From a design perspective, the CSS styles aim to balance aesthetics with usability. The body is styled with a full-page ocean-themed background image, set to cover the viewport and remain fixed while scrolling. The font is set to 'Poppins' for modern readability. The .overlay class applies a dark semi-transparent background (rgba(0, 0, 50, 0.7)) and blur effect, ensuring text readability over the image. The form uses max-width, padding, and border-radius to give it a neat, centered appearance with sufficient spacing. The box-shadow adds subtle depth to make the form stand out visually.</p>
+                                    <p>Form elements such as input, textarea, and select are styled uniformly to ensure consistency. Labels are bold and placed above their corresponding inputs to maintain a clear structure. Special attention is given to radio buttons and checkboxes, which are displayed inline and sized appropriately. The rating system uses emoji icons styled with CSS transitions and scaling effects, giving users visual and interactive feedback. The submit button is styled with a distinct teal background and changes color on hover to encourage user interaction.</p>
+                                    <p>Overall, the HTML and CSS techniques used in this feedback form are purposefully selected to create a responsive, visually appealing, and user-friendly interface. The structure enhances readability and accessibility, while the styling ensures clarity and engagement, aligning well with the ocean conservation theme of the website.</p> 
+                    
+                    <br><h3>Accessibility</h3><br>
+                        <p>The feedback form web page demonstrates several important accessibility principles to ensure that it can be used by a wide range of users, including those with disabilities. Semantic HTML elements such as form, fieldset, legend, label, and appropriate input types (text, email, tel, date, radio, etc.) enhance screen reader compatibility and help assistive technologies understand the page's structure and purpose. Each form field is paired with a label that is explicitly connected using the for and id attributes, allowing screen readers to read out what each input is for. Required fields are clearly marked with a red asterisk and also use the required attribute, helping both visual users and those relying on assistive technology identify which inputs must be completed. Additionally, the use of title attributes and maxlength constraints provides helpful input guidance and limits, which improves form usability and prevents errors.</p>
+
+                <p>The page also includes a consistent heading hierarchy and readable fonts, enhancing clarity for all users. The use of high contrast between text and background (e.g., white text over a dark semi-transparent overlay) supports users with low vision or color blindness. Interactive elements such as buttons and links are designed with sufficient size and spacing, making them easier to click for users with motor impairments. The rating system, using emoji icons, includes title attributes (e.g., “Very Happy”), providing descriptive tooltips for screen reader users or those who may not understand the symbols. Moreover, the site follows W3C standards and includes a footer note stating adherence to accessibility guidelines, showing a commitment to inclusivity. Alt attributes on images such as the logo also ensure that non-visual users receive context for graphical content. Altogether, these features contribute to a well-structured, accessible web page that aligns with best practices in inclusive web design.</p><br>
+                    
+                    <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#splashVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br><!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    <h3>Link to the page</h3>
+                        <p><a href="../feedback page/feedback.html">Feedback page</a></p>
+            </section>
+
+            <section>
+                <h2 id="team">Team Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The Team Page uses a structured HTML layout to present team members in a clean and visually engaging way. The document begins with a standard '!DOCTYPE html' declaration and uses semantic elements like header, section, and footer to divide content logically. The header includes a navigation bar implemented with 'nav' and 'a' tags, allowing users to move between different sections of the website. This structure enhances usability and accessibility. The core content is placed inside a section element with a class team-section, which contains a heading and a grid of team member profiles. Each profile is wrapped in a div with the class team-member, containing an image and another nested div (.details) for role descriptions. Using tabindex="0" on each .team-member makes the cards keyboard-accessible, supporting users who navigate via the keyboard.</p>
+                        <p>From a CSS perspective, the layout is built using the Flexbox model (display: flex and flex-wrap: wrap), which allows the .team-container to arrange team member cards in a responsive, centered grid. Styling choices like box-shadow, border-radius, and transition add a modern, polished feel to each card while maintaining readability. The :hover and :focus pseudo-classes are used to create interactivity hovering over a team member card slightly enlarges it (transform: scale(1.05)) and reveals hidden details by adjusting the height of the .details section. This design logic improves user engagement by allowing information to appear only when needed, keeping the interface clean and minimal.</p>
+                        <p>The CSS uses a soft, ocean-inspired color palette (#e0f7fa, #00796b, #004d40) that reflects the environmental theme of the site. The font-family is set to 'Poppins', a Google Font that provides a clean, modern look suitable for readability. The images are styled with object-fit: cover to ensure consistent display across different image sizes, and transition: opacity is used to subtly fade images on hover. The footer, implemented using multiple <div> elements inside a container, organizes contact information, links, and credits into clearly defined sections. This modular design supports both aesthetic appeal and functionality, helping users quickly find relevant information.</p>
+                        <p>Overall, the combination of semantic HTML structure and dynamic CSS effects provides a user-friendly, accessible, and visually appealing team page that fits well within the broader theme of the “Life Below Water” website.</p><br>
+
+
+                    <h3>Accessibility</h3><br>
+                        <p>Accessibility was thoughtfully addressed in the implementation of this Team Page to ensure that users with different needs and abilities can navigate and understand the content effectively.</p>
+                        <p>Firstly, semantic HTML elements such as header, nav, section, and footer were used to provide clear structure to the page, which helps screen readers and other assistive technologies interpret the layout more meaningfully. Each navigational link within the nav bar is clearly labeled with descriptive text, allowing users to understand the destination of each link without relying on visuals.</p>
+                        <p>To improve keyboard accessibility, each .team-member card includes the tabindex="0" attribute. This allows users who rely on the keyboard (rather than a mouse) to focus on each team member card using the Tab key. When focused, the same interactive effects that occur on hover—such as revealing additional details are triggered, ensuring an equal experience for users navigating with keyboards.</p>
+                        <p>Additionally, alt text is provided for all images through the alt attribute, such as alt="Team Member 1". This ensures that screen reader users receive descriptions of visual content, which is particularly important for understanding the purpose of the team member photos.</p>
+                        <p>The page also maintains sufficient color contrast between text and background (e.g., dark green text on a light aqua background), making it easier to read for users with visual impairments or color blindness. The font choice (Poppins) and clear font sizing also enhance readability.</p>
+                        <p>Lastly, the footer includes a small statement confirming that the website follows accessibility guidelines and adheres to W3C standards. This shows a commitment to designing inclusively and ensuring the content is accessible to as many users as possible. Overall, these techniques reflect an understanding of core accessibility principles such as keyboard navigation, semantic structure, text alternatives for images, and visual clarity.</p><br>
+
+
+
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#volunteerVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br><!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the page</h3><br>
+                        <p><a href="../team page/team.html">Team page</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The HTML structure of this content page follows a well-organized and semantic layout to enhance readability, accessibility, and functionality. Key structural elements such as header, nav, section, and footer are used to divide the page into logical sections. The header houses the logo and main navigation links, helping users easily move across the site. Inside the main 'div class="container" , a two-column layout is created using nav class="nav1" for quick internal navigation and div class="main1" for the main article content, promoting user-friendly exploration of the content.</p>
+                        <p>Each major content topic Introduction, Sustainable Practices, Threats, Solutions, and Conclusion is enclosed within its own section tag, which enhances semantic meaning and accessibility. These sections are given individual IDs, allowing the left-side vertical navigation menu to link directly to each using anchor tags (a href="#sectionID"). This not only improves user experience but also supports accessibility and SEO.</p>
+                        <p>The external CSS complements the HTML by applying both aesthetic design and layout structure. The display: flex property on the .container class is used to create a responsive, horizontal layout with a sticky sidebar. Flex properties such as flex: 1 and flex: 3 divide the width between the nav bar and main content dynamically. The .nav1 class is styled with a dark blue background, white bold links, and a position: sticky with top: 0, ensuring it remains visible as users scroll.</p>
+                        <p>The .main1 content area uses padding, background color, and text-align: justify for better readability. Each section is visually distinguished using a white background, soft box-shadow, rounded corners (border-radius), and generous padding. These visual cues help segment content clearly for readers. Section headings (h2) are styled with custom colors and underlines to match the site’s color palette and maintain consistency with ocean themes.</p>
+                        <p>Images inside each section use the .imgg class, styled with max-width: 100% and auto height for responsiveness, along with rounded borders and a soft blue border outline. A “Back to Top” button (#topBtn) is implemented using position: fixed, ensuring it stays visible as users scroll. Its color changes on hover for interactive feedback.</p>
+                        <p>The media query ensures the layout is mobile-responsive. When the screen width is under 768px, the layout changes to a vertical column format. The sidebar (.nav1) becomes relative and stacks above the content (.main1), making it more suitable for smaller screens and enhancing mobile usability.</p>
+                        <p>Overall, the combination of semantic HTML and responsive, styled CSS not only enhances the visual appeal but also ensures accessibility, content clarity, and consistent navigation providing a pleasant experience across devices while reinforcing the educational purpose of the page.</p><br>
+                    <h3>Accessibility</h3><br>
+                        <p>Accessibility was thoughtfully considered throughout the implementation of this content page to ensure it is inclusive and usable for all users, including those with disabilities. Semantic HTML elements such as header, nav, main, section, and footer were used to provide a clear and meaningful structure, which assists screen readers and improves keyboard navigation. Descriptive alt attributes were applied to all images, allowing visually impaired users to understand the visual content through screen readers. The navigation links are text-based and presented in a logical order, with a dedicated “Quick Navigation” panel offering easy internal access to different sections of the page. This improves usability and helps users quickly find the information they need.</p>
+                        <p>In terms of visual accessibility, high-contrast color combinations were chosen such as white text on a dark blue sidebar background and clear section headers ensuring that text remains readable for users with visual impairments. A large, clearly labeled “Back to Top” button was added and remains fixed to the bottom corner of the screen, allowing users with limited mobility to easily return to the top of the page. Additionally, the page includes responsive design features using media queries, making content accessible and readable across different screen sizes, including tablets and smartphones. The font family “Poppins” was selected for its readability, and font sizes and spacing were adjusted to support comfortable on-screen reading. These combined efforts reflect a strong commitment to accessibility and help ensure that the page meets inclusive design principles.</p><br>
+
+
+
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#contentVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the page</h3><br>
+                        <p><a href="../content page/contentpage_ST3.html">Content Page</a></p>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2><br>
+                    <p>The Feedback Form presented a different set of challenges, primarily related to layout spacing and input accessibility. There were initial issues with insufficient white space between the header and the form, making the content feel cramped. By adjusting the CSS margin and padding, and introducing a wrapper element to add structured spacing, the form became more readable and user-friendly. Another issue involved label alignment with input fields, which was resolved using flexbox and clear grouping with fieldset and label tags. This process improved my understanding of form structure and the importance of spacing, alignment, and semantic HTML for accessibility.</p>
+                    <p>While designing the Team Page, a key challenge was ensuring that the hover effect applied only to the team member image being hovered over, rather than affecting all images at once. Initially, all images were enlarging together due to shared CSS targeting. To fix this, I restructured the CSS to apply the transform: scale() effect specifically to the image inside the :hover state of each individual container, ensuring that the interaction felt smooth and intuitive. This taught me how specificity in CSS selectors can greatly affect interactivity and that user experience can be improved by isolating hover effects properly.</p>
+                    <p>In the Content Page on Sustainable Fishing and Ocean Protection, balancing a side navigation panel with the main content on a responsive layout proved difficult. The sticky sidebar initially overlapped the content or broke layout on smaller screens. Media queries were used to shift the layout from a horizontal flex structure to a vertical one on smaller viewports. Additionally, ensuring that images and text blocks remained visually balanced and accessible required careful tuning of widths, alt text, and font sizes. I learned how responsive design must be considered from the start, and that accessibility elements like meaningful headings, alt text, and keyboard navigation are essential for creating inclusive experiences.</p>
+                    <p>Across all three pages, these challenges helped sharpen my skills in responsive layout design, semantic HTML, form accessibility, and interactive styling. They also reinforced the value of iterative testing, both visually and functionally, to ensure a smooth user experience across all devices.</p><br>
+
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2><br>
+                    <p><strong>Team Page - Compliance with JANET Regulations</strong><br>
+                    The Team Page was developed with accessibility and ethical publishing in mind, in line with JANET regulations. Proper semantic HTML tags such as section, h2, and p were used to ensure that screen readers and assistive technologies can accurately interpret the structure of the page. Images for each team member included meaningful alt text, helping visually impaired users understand the visual content. Additionally, the hover effects and responsive design were implemented using clean, validated CSS that avoids animation overload, maintaining accessibility for users with motion sensitivity. The content is original and appropriate, with no copyrighted material or third-party scripts that might compromise user privacy or security. Overall, this page supports JANET's values of inclusive, accessible, and ethical content publishing.</p><br>
+
+                    <p><strong> Feedback form - Compliance with JANET Regulations</strong><br>
+                    The Feedback Form demonstrates a careful balance between functionality and compliance with user data protection standards. The form was built purely for demonstration purposes and does not store or process any real user data, which ensures alignment with JANET's expectations regarding privacy and security. All form fields are clearly labeled using 'label' elements that are properly associated with their corresponding input fields, improving usability and accessibility for keyboard and screen reader users. No JavaScript tracking, cookies, or backend data handling is involved, which means there's no risk of violating data collection guidelines. The design of the form is clean and uses sufficient color contrast, contributing to visual accessibility. By focusing on structure, clarity, and ethical presentation, this page adheres to JANET's guidelines for responsible web publication.</p><br>
+
+                    <p><strong>Content Page - Compliance with JANET Regulations</strong><br>
+                    The Content Page on Sustainable Fishing and Ocean Protection strongly aligns with JANET regulations through its educational focus, accessible structure, and appropriate use of media. Each section of content is wrapped in semantic tags like section and h2, improving readability and compatibility with assistive tools. The page uses descriptive alt text for all images and a sidebar navigation with anchor links that enable easy in-page movement for all users, including those using screen readers or keyboard navigation. The content is original and factual, serving an informative purpose and avoiding plagiarism or unlicensed media. Additionally, all images are used under fair-use for educational settings or sourced from public platforms, and external stylesheets ensure the code is clean and maintainable. This page also avoids intrusive popups or tracking, which supports JANET's expectations for safe, ethical, and inclusive digital environments.</p>
+
+                    
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                <p>
+                    <ul class="ref">
+                        <li>Freepik (2025) Freepik Available at: <a href="https://www.freepik.com/">https://www.freepik.com/</a> (Last accessed: 05 July 2025).</li>
+                        <li>Google Fonts (2025) Poppins. Available at: <a href="https://fonts.google.com/specimen/Poppins">https://fonts.google.com/specimen/Poppins</a> (Last accessed: 05 July 2025).</li>
+                        <li>Pinterest (2025) Pinterest. Available at: <a href="https://www.pinterest.com/">https://www.pinterest.com/</a> (Last accessed: 05 July 2025).</li>
+                        <li>W3C (2025) Web Accessibility Guidelines. Available at: <a href="https://www.w3.org/WAI/">https://www.w3.org/WAI/</a> (Last accessed: 05 July 2025).</li>
+                    </ul>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+
+        <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
+            <ul class="top-level-ul">
+                <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
+                <li>Student 3</li>
+                    <ul>
+                        <li><a href="#feedback">Feedback page</a> </li>
+                        <li><a href="#team">Team page</a></li>
+                        <li><a href="#content">Content page</a></li>
+                    </ul>
+                        <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                        <li><a href="#compliance">Compliance</a></li>
+                        <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer with Editor Page Link -->
+    <footer>
+        <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+            <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+            <p>
+                Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                resources, and community engagement for a cleaner, healthier planet.
+            </p>
+            </div>
+
+            <div class="footer-section links">
+            <h3><u>Links</u></h3>
+            <ul>
+                <li><a href="../home page/homepage.html">Home</a></li>
+                <li><a href="../volunteer page/volunteer.html">Volunteer</a></li>
+                <li><a href="../user profile page/userprofile.html">Profile</a></li>
+                <li><a href="../feedback page/feedback.html">Feedback</a></li>
+                <li><a href="../sitemap.html">Sitemap</a></li>
+                <li><a href="../team page/team.html">Team</a></li>
+                <li><a href="../table/table.html">Table</a></li>
+                
+            </ul>
+            </div>
+
+            <div class="footer-section editors">
+            <h3><u>Editors</u></h3>
+            <ul>
+                <li><a href="pageEditor_ST1.html">Student 1</a></li>
+                <li><a href="pageEditor_ST2.html">Student 2</a></li>
+                <li><a href="pageEditor_ST3.html">Student 3</a></li>
+                <li><a href="pageEditor_ST4.html">Student 4</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-section contact-info">
+                <h3><u>Contact</u></h3>
+                <ul>
+                    <li>Email: info@lifebelowwater.org</li>
+                    <li>Phone: +94 11 2238178</li>
+                    <li>Address: 172/9 Greenway street,<br>Colombo, Sri Lanka</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
+        
+    </footer>
+</body>
+</html>
