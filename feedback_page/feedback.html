@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Meta Tags -->
   <meta charset="UTF-8">
   <title>Life Below Water - Feedback</title>
+  <!-- CSS Links -->
   <link rel="stylesheet" href="../global/global.css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   
+  <!-- Embedded CSS Styles -->
   <style>
+        /* Body styling with ocean background */
         body {
             margin: 0;
             font-family: poppins;
@@ -17,7 +22,7 @@
             color: #fff;
         }
 
-
+        /* Semi-transparent overlay for better readability */
         .overlay {
             background-color: rgba(0, 0, 50, 0.7);
             min-height: 100vh;
@@ -28,6 +33,7 @@
             backdrop-filter: blur(5px);
         }
 
+        /* Form container styling */
         form {
             background: rgba(255, 255, 255, 0.95);
             padding: 30px;
@@ -38,6 +44,7 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
         }
 
+        /* Main heading style */
         h1 {
             margin-top: 150px;
             text-align: center;
@@ -46,24 +53,28 @@
             padding-bottom: 50px;
         }
 
+        /* Fieldset styling */
         fieldset {
             border: none;
             margin-bottom: 25px;
         }
 
+        /* Legend styling for form sections */
         legend {
             font-weight: bold;
             font-size: 1.2em;
             margin-bottom: 10px;
             color: #006064;
         }
-
+        
+        /* Label styling */
         label {
             display: block;
             margin-top: 12px;
             font-weight: 600;
         }
 
+        /* Input fields styling */
         input, select, textarea {
             width: 100%;
             padding: 10px;
@@ -73,25 +84,29 @@
             font-size: 1em;
             background: #f9f9f9;
         }
-
+        
+        /* Radio and checkbox specific styling */
         input[type="radio"],
         input[type="checkbox"] {
             width: auto;
             margin-right: 5px;
         }
-
+        
+        /* Rating emoji styling */
         .rating span {
             font-size: 28px;
             cursor: pointer;
             transition: transform 0.2s ease;
             display: inline-block;
         }
+        
 
         .rating span:hover {
             color: gold;
             transform: scale(1.3);
         }
 
+        /* Submit button styling */
         .submit-btn {
             background: #00796b;
             color: white;
@@ -108,6 +123,7 @@
             background: #004d40;
         }
 
+        /* Character counter styling */
         .char-count {
             font-size: 0.9em;
             color: #555;
@@ -123,15 +139,19 @@
             <a href="../homeP_page/homepage.html">Home</a>
             <a href="../volunteer_page/volunteer.html">Volunteer</a>
             <a href="../user_profile_page/userprofile.html">Profile</a>
-            <a href="../feedback_page/feedback.html">Feedback</a>
+            <a href="../feedback_page/feedback.html" class="active">Feedback</a>
             <a href="../sitemap.html">Sitemap</a>
             <a href="../team_page/team.html">Team</a>
             <a href="../table/table.html">Table</a>
         </nav>  
     </header>
+    <!-- Main Page Heading -->
   <h1>Feedback Form - Aquaverse</h1>
+
+  <!-- Form Container with Overlay -->
   <div class="overlay">
     <form>
+        <!-- Personal Details Section -->
       <fieldset>
         <legend>Personal Details</legend>
 
@@ -151,6 +171,7 @@
       <fieldset>
         <legend>Feedback Details</legend>
 
+        <!-- Topic Selection Dropdown -->
         <label for="topic">Select a Topic:<span style="color:red">*</span></label>
         <select id="topic" name="topic" required>
           <option value="" disabled selected hidden>Select a topic</option>
@@ -161,6 +182,7 @@
           <option>Ocean Protection</option>
         </select>
 
+        <!-- Multi-select Interests -->
         <label for="interest">Interested Areas:<span style="color:red">*</span></label>
         <select id="interest" name="interest" multiple size="4" required>
           <option>Clean-up campaigns</option>
@@ -169,6 +191,7 @@
           <option>Volunteering</option>
         </select>
 
+        <!-- How did you hear about us (with datalist) -->
         <label for="datalistInput">How did you hear about us?</label>
         <input list="sources" id="datalistInput" name="source">
         <datalist id="sources">
@@ -178,9 +201,11 @@
           <option value="School Project">
         </datalist>
 
+        <!-- Recommendation Radio Buttons -->
         <label>Would you recommend our website?<span style="color:red">*</span></label>
         <pre><input type="radio" name="recommend" value="yes" required> Yes                            <input type="radio" name="recommend" value="no"> No</pre>
 
+        <!-- Useful Features Checkboxes -->
         <label>What did you find useful?<span style="color:red">*</span></label>
         <input type="checkbox" name="useful" value="Design" required> Design
         <input type="checkbox" name="useful" value="Content" required> Content
@@ -191,15 +216,19 @@
                   title="Max 200 characters."></textarea>
         <p class="char-count">Characters remaining: <span id="count">200</span></p>
 
+        <!-- Date Picker -->
         <label for="date">Date:<span style="color:red">*</span></label>
         <input type="date" id="date" name="date" required>
 
+        <!-- Time Picker -->
         <label for="datetime">Preferred Feedback Time:</label>
         <input type="time" id="datetime" name="datetime">
 
+        <!-- File Upload -->
         <label for="upload">Upload Attachment (Image or PDF):</label>
         <input type="file" id="upload" name="upload" accept=".jpg,.png,.pdf">
 
+        <!-- Emoji Rating System -->
         <label>Rate Us:</label>
     <div class="rating">
         <span title="Very Happy">😁</span>
@@ -243,13 +272,14 @@
             <div class="footer-section editors">
             <h3><u>Editors</u></h3>
             <ul>
-                <li><a href="pageEditor_ST1.html">Student 1</a></li>
-                <li><a href="pageEditor_ST2.html">Student 2</a></li>
-                <li><a href="pageEditor_ST3.html">Student 3</a></li>
-                <li><a href="pageEditor_ST4.html">Student 4</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST1.html">Student 1</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST2.html">Student 2</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST3.html">Student 3</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST4.html">Student 4</a></li>
             </ul>
             </div>
-
+            
+            <!-- Contact Information Section -->
              <div class="footer-section contact-info">
                 <h3><u>Contact</u></h3>
                 <ul>

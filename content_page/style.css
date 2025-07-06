@@ -1,17 +1,19 @@
+    /* Reset default margin and set base styles for the body */
     body {
         margin: 0;
-        margin-top: 120px;
+        margin-top: 120px;/* Add space for fixed header */
         font-family: poppins;
         background-color: #c7e6f5;
         color: #333;
         line-height: 1.8;
     }
 
-
+    /* Shared styles for h1 and h3 headings */
     h1,h3 {text-align: center;
           margin-top: 100px;
     }
 
+    /* Specific styles for h1 headings */
     h1 {
         padding: 20px 10px 20px;
         background-color: #B8DADB;
@@ -20,18 +22,20 @@
 
     h3 {
         text-align: center;
-<<<<<<< HEAD
-        padding: 10px;
-=======
 
->>>>>>> dcc4a80149cd9b1c328fdfbdf06a0897c9c0f085
+        padding: 10px;
+
+
+
     }
 
+    /* Main container for page layout */
     .container {
         display: flex;
         flex-wrap: wrap;
     }
     
+    /* Navigation sidebar styles */
     .nav1 {
         flex: 1;
         width: 10%;
@@ -60,6 +64,7 @@
         text-decoration: underline;
     }
     
+    /* Main content area styles */
     .main1 {
         flex: 3;
         padding: 40px;
@@ -67,6 +72,7 @@
         background-color: #c7e6f5;
     }
 
+    /* Section styling for content blocks */
     section {
         margin-bottom: 60px;
         background-color: white;
@@ -82,6 +88,7 @@
         margin-bottom: 15px;
     }
 
+    /* Image styling */
     .imgg {
         max-width: 100%;
         height: auto;
@@ -90,6 +97,7 @@
         margin-top: 15px;
     }
 
+    /* Back-to-top button styles */
     #topBtn {
         position: fixed;
         bottom: 20px;
@@ -104,23 +112,27 @@
         z-index: 999;
     }
 
+    /* Back-to-top button hover effect */
     #topBtn:hover {
         background-color: #7BA7B0;
     }
 
+    /* Responsive styles for screens up to 768px wide */
     @media (max-width: 768px) {
+        /* Stack container elements vertically */
         .container {
-            align-self: right;
+            align-self: flex-end;
             flex-direction: column;
         }
         
+        /* Adjust navigation for mobile */
         .nav1 {
             width: 20%;
             height: auto;
             position: relative;
         }
         
-
+        /* Adjust main content for mobile */
         .main1 {
             width: 100%;
             padding: 20px;

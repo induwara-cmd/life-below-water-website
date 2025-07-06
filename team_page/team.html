@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic Meta Tags -->
   <meta charset="UTF-8">
   <title>Our Team - Life Below Water</title>
+   <!-- CSS Links -->
   <link rel="stylesheet" href="../global/global.css">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   
+  <!-- Embedded CSS Styles -->
   <style>
+    /* Body styling with light teal background */
     body {
       font-family: poppins;
       background: #e0f7fa;
@@ -15,6 +20,7 @@
       color: #004d40;
     }
 
+    /* Team section container styling */
     .team-section {
       text-align: center;
       padding: 60px 20px;
@@ -27,6 +33,7 @@
       color: #00796b;
     }
 
+    /* Container for team members - flex layout */
     .team-container {
       display: flex;
       flex-wrap: wrap;
@@ -34,6 +41,7 @@
       gap: 30px;
     }
 
+    /* Individual team member card styling */
     .team-member {
       background-color: #ffffff;
       border-radius: 12px;
@@ -49,12 +57,14 @@
 
     }
 
+    /* Hover and focus states for team member cards */
     .team-member:focus,
     .team-member:hover {
       transform: scale(1.05);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
 
+    /* Team member image styling */
     .thumbnail {
       width: 100%;
       height: 300px;
@@ -62,11 +72,13 @@
       transition: opacity 0.3s;
     }
 
+    /* Image hover effect */
     .team-member:hover .thumbnail,
     .team-member:focus .thumbnail {
       opacity: 0.8;
     }
     
+    /* Details section (hidden by default) */
     .details {
       padding: 30px;
       height: 0;
@@ -74,18 +86,21 @@
       transition: height 0.5s ease;
     }
 
+    /* Show details on hover/focus */
     .team-member:hover .details,
     .team-member:focus .details {
       height: 180px;
       max-width: 300px;
     }
 
+    /* Team member name styling */
     .details h3 {
       margin: 0 0 5px;
       font-size: 0.9em;
       color: #00796b;
     }
 
+    /* Team member details text styling */
     .details p {
       margin: 5px 0;
       font-size: 0.95em;
@@ -98,23 +113,28 @@
     <header>
         <img class="img" src="aqua5.jpg" alt="logo aquaverse">
         <nav class="navigation">
-            <a href="../home page/homepage.html">Home</a>
-            <a href="../volunteer page/volunteer.html">Volunteer</a>
-            <a href="../user profile page/userprofile.html">Profile</a>
-            <a href="../feedback page/feedback.html">Feedback</a>
+            <a href="../home_page/homepage.html">Home</a>
+            <a href="../volunteer_page/volunteer.html">Volunteer</a>
+            <a href="../user_profile_page/userprofile.html">Profile</a>
+            <a href="../feedback_page/feedback.html">Feedback</a>
             <a href="../sitemap.html">Sitemap</a>
-            <a href="../team page/team1.html">Team</a>
+            <a href="../team_page/team1.html" class="active">Team</a><!-- Current page highlighted -->
             <a href="../table/table.html">Table</a>
         </nav>  
     </header>
 
+    <!-- Main Team Section -->
   <section class="team-section">
+     <!-- Page Heading -->
     <h1>Meet the Team</h1>
     <h4>Learn about the team | Hover over the images for more details</h4>
+
+    <!-- Team Members Container -->
     <div class="team-container">
 
+      <!-- Team Member 1 Card -->
       <div class="team-member" tabindex="0">
-        <img src="member1 (2).jpg" alt="Team Member 1" class="thumbnail">
+        <img src="member1.jpg" alt="Team Member 1" class="thumbnail">
         <div class="details">
           <h3>Induwara Bandara</h3><br>
           <p><strong>Role: </strong> Student 1</p>
@@ -122,6 +142,7 @@
         </div>
       </div>
 
+      <!-- Team Member 2 Card -->
       <div class="team-member" tabindex="0">
         <img src="member2.jpg" alt="Team Member 2" class="thumbnail">
         <div class="details">
@@ -131,6 +152,7 @@
         </div>
       </div>
 
+      <!-- Team Member 3 Card -->
       <div class="team-member" tabindex="0">
         <img src="member3.jpg" alt="Team Member 3" class="thumbnail">
         <div class="details">
@@ -140,6 +162,7 @@
         </div>
       </div>
 
+      <!-- Team Member 4 Card -->
       <div class="team-member" tabindex="0">
         <img src="member4.jpg" alt="Team Member 4" class="thumbnail">
         <div class="details">
@@ -153,8 +176,7 @@
   </section>
 
   <!-- Footer with Editor Page Link -->
-    <footer>
-        <footer class="site-footer">
+      <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-section about">
             <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
@@ -167,12 +189,12 @@
             <div class="footer-section links">
             <h3><u>Links</u></h3>
             <ul>
-                <li><a href="../home page/homepage.html">Home</a></li>
-                <li><a href="../volunteer page/volunteer.html">Volunteer</a></li>
-                <li><a href="../user profile page/userprofile.html">Profile</a></li>
-                <li><a href="../feedback page/feedback.html">Feedback</a></li>
+                <li><a href="../home_page/homepage.html">Home</a></li>
+                <li><a href="../volunteer_page/volunteer.html">Volunteer</a></li>
+                <li><a href="../user_profile_page/userprofile.html">Profile</a></li>
+                <li><a href="../feedback_page/feedback.html">Feedback</a></li>
                 <li><a href="../sitemap.html">Sitemap</a></li>
-                <li><a href="../team page/team.html">Team</a></li>
+                <li><a href="../team_page/team.html">Team</a></li>
                 <li><a href="../table/table.html">Table</a></li>
                 
             </ul>
@@ -181,10 +203,10 @@
             <div class="footer-section editors">
             <h3><u>Editors</u></h3>
             <ul>
-                <li><a href="pageEditor_ST1.html">Student 1</a></li>
-                <li><a href="pageEditor_ST2.html">Student 2</a></li>
-                <li><a href="pageEditor_ST3.html">Student 3</a></li>
-                <li><a href="pageEditor_ST4.html">Student 4</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST1.html">Student 1</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST2.html">Student 2</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST3.html">Student 3</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST4.html">Student 4</a></li>
             </ul>
             </div>
 
