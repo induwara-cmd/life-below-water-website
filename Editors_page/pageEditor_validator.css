@@ -19,7 +19,7 @@ main {
 aside {
     flex: 1;
     background-color: #f4f4f4;
-    padding: 15px;
+    padding: 50px;
     border: 1px solid #ddd;
     margin-right: 20px;
 }
