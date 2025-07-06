@@ -54,6 +54,16 @@ header {
   transform: scaleX(1);
   transform-origin: left;
 }
+.navigation a.active {
+  font-weight: bold;
+  color: #ffffff; /* or any highlight color */
+}
+
+.navigation a.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 
 /* Footer */
 .site-footer {

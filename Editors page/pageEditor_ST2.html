@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B D C Bevan Steferd - Student 02</title>
+
+    <link rel="stylesheet" href="css/pageEditor_validator.css"> <!-- External CSS link -->
+    <link rel="stylesheet" href="../global/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Update the header and the footer to be consistent with the rest of the pages you implemented -->
+
+    <header id="top">
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="../home page/homepage.html">Home</a>
+            <a href="../volunteer page/volunteer.html">Volunteer</a>
+            <a href="../user profile page/userprofile.html">Profile</a>
+            <a href="../feedback page/feedback.html">Feedback</a>
+            <a href="../sitemap.html">Sitemap</a>
+            <a href="../team page/team.html">Team</a>
+            <a href="../table/table.html">Table</a>
+        </nav>
+    </header>
+
+    <section class="stud">
+        <h2>B D C Bevan Steferd, student 02</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+
+            <!-- Update those first three sections for the pages you were responsible to implement -->
+
+            <section>
+                <h2 id="Home page">Home Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The homepage is built using semantic HTML structure and CSS styling to create a clean, user-friendly layout focused on marine conservation under the theme "Life Below Water." The main content begins with a bold heading inside the main content wrapper, placed strategically below the fixed navigation using margin spacing. This heading is styled with a large font size and themed color to instantly convey the site’s purpose. 
+                            All major content is grouped inside a central container with flexible sizing to ensure consistency across various screen sizes.The "About Us" section is one of the key content blocks, built using a combination of layout containers like "section" and "div" elements. The layout is handled using Flexbox, which allows the text content and the image to be placed side by side on larger screens. This visual arrangement creates balance and improves readability. 
+                            The text block is styled with a soft background color, rounded corners, a solid border, and subtle shadowing, giving it a modern card-like appearance. The heading within this block is center-aligned and visually emphasized using an underline created through a pseudo-element. The paragraph text is carefully spaced and justified, improving overall legibility and aesthetics.The "Our Mission" section follows a similar card-based visual design but stands out with its light blue background that spans the full width of the container. 
+                            Inside this area, the mission content is placed within a centered box that uses padding, shadows, and rounded borders to separate it from the background. Text within the mission box is centered and broken into short, digestible paragraphs. These layout and styling choices help the user focus on the key goals and objectives of the project without feeling overwhelmed.One of the most visually engaging components is the "Contents" section. 
+                            It features a grid of four content cards, each representing a core topic related to marine conservation. These cards are built using CSS Grid layout, with equal column spacing and gap values that maintain a clean look. Each card includes an image, a heading, a brief description, and a “Read More” link styled to resemble a small button. Visual depth is added using drop shadows, and interactivity is introduced through hover effects, where each card lifts slightly and changes shadow intensity to create a responsive feel. 
+                            The link uses rounded corners and background color transitions to stand out as a clickable element without overwhelming the design.To maintain responsiveness, the design uses media queries that adapt the layout based on screen width. For example, the grid layout in the contents section shifts from four columns to two and then to one as the screen gets smaller. Similarly, the "About Us" Flexbox layout switches to a vertical stack on mobile devices to keep content accessible. 
+                            Padding and spacing values are also adjusted to prevent overflow and maintain visual hierarchy on all screen sizes.Overall, the homepage design effectively combines structured HTML and modern CSS to deliver a well-balanced, informative, and visually appealing experience. The use of Flexbox and Grid enables precise control over layout, while shadows, colors, and transitions enhance user interaction and align with the oceanic theme. 
+                            Every element is intentionally placed and styled to guide the visitor smoothly through the purpose and values of the site.</p><br>
+                    
+                    <h3>Accessibility</h3><br>
+                        <p>Accessibility has been considered in the homepage design to ensure the content is usable for a wide range of users, including those with disabilities. Semantic elements such as "header", "main", "section", and "footer" are used to provide clear content structure, which helps screen readers and assistive technologies interpret the page accurately. Descriptive "alt" text is provided for all images, including the project logo and content visuals, allowing visually impaired users to understand the visual context through screen readers. 
+                            The color scheme maintains sufficient contrast between text and background, ensuring readability for users with low vision or color blindness. Interactive elements such as the navigation links and “Read More” buttons are designed to be clearly distinguishable and include visual feedback on hover to support keyboard navigation and focus indication. Additionally, headings follow a logical order and content is organized with appropriate spacing, which enhances overall readability and user experience for all visitors.</p><br>
+                    
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#splashVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    <h3>Link to the home page</h3><br>
+                        <p><a href="../home page/homepage.html">Include a link to the actual page you describe.</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="Table">Table Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The marine cleanup comparison table page is developed using semantic HTML and structured CSS to present data in an accessible, organized, and visually engaging format. The core of the page is built around the "table" element, which is enhanced through a combination of "thead", "tbody", and "tr" structures to separate the header and body content logically. This semantic structure supports screen readers and improves clarity for users viewing tabular data. 
+                            Each header cell ("th") is used to label its corresponding column, ensuring that users can easily scan and understand the dataset. A custom "section-header" class is applied to the top row of headers to visually highlight the start of the data section with bold typography and a deeper background color. CSS Grid or Flexbox was not used for layout here, as the tabular structure is naturally suitable for presenting comparative data. 
+                            Instead, styling is applied directly to the table using properties like border-collapse, width, box-shadow, and border-radius to achieve a clean, modern card-like appearance. The alternate row coloring (nth-child(even)) helps visually separate data entries for readability. Interactive feedback is also added via a hover effect on rows (:hover), giving users subtle visual cues as they explore the table. 
+                            Iconography is handled using Font Awesome icons placed inside the "td" cells, conveying the status of each program—such as verified or not verified—using familiar symbols like ticks and crosses. These icons include "aria-label" and "title" attributes to enhance accessibility for screen readers and users relying on tooltips. The "button" elements in the last column allow interaction by letting users select a program. 
+                            These buttons are styled with consistent padding, background color, font settings, and hover effects using transitions to ensure a polished user experience.The overall layout is centered on the page using margin auto and max-width constraints on the "pricing-table" container, while internal spacing is controlled through padding. A custom ribbon section at the top is used to introduce the table category with badge styling for emphasis. 
+                            Additionally, responsive design is handled using a media query for screen widths below 768px, adjusting font sizes, paddings, and button dimensions to maintain usability on mobile and tablet devices.In summary, this table page demonstrates a strong balance of structured HTML and visually effective CSS. It successfully presents complex comparative data in a user-friendly and accessible format, supporting both functional clarity and consistent visual identity within the wider website.</p><br>
+
+                    <h3>Accessibility</h3><br>
+                        <p>Accessibility was a key consideration in the implementation of the table page to ensure that all users, including those with disabilities, can access and understand the content effectively. The page uses semantic HTML elements such as "table", "thead", "tbody", and "th" to create a structured, screen reader-friendly layout. An "aria-label" is applied to the main table to clearly describe its purpose to assistive technologies. 
+                            Font Awesome icons used for verification status include "aria-label" and "title" attributes, which provide descriptive tooltips and audio cues for screen reader users. Button elements are designed with clear labels and a visible focus state to support keyboard navigation. The color scheme ensures adequate contrast between text and background, meeting WCAG standards for visual clarity. 
+                            Hover and focus effects on rows and buttons improve the interactive experience without relying solely on color cues, making it accessible to users with color blindness. Responsive design also contributes to accessibility by maintaining readable layouts across different devices and screen sizes. These combined efforts make the table both informative and inclusive.</p><br>
+
+                    <h3>Link to the Validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#volunteerVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the table page</h3><br>
+                        <p><a href="../table/table.html">Include a link to the actual page you describe.</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p>The Coral Reefs and Ecosystems content page was built using a structured and responsive HTML layout enhanced by purposeful CSS styling to improve readability, navigation, and user experience. The page layout is divided into a two-column structure using a flex container, where the left column serves as a vertical side navigation menu and the right column presents the main content. 
+                            The side menu uses a combination of "position: sticky" and a fixed "top" value to keep it visible while scrolling, ensuring easy access to internal links throughout the page. Each menu item links to specific sections via anchor IDs, providing intuitive in-page navigation. The main content uses multiple reusable containers styled as cards to organize different thematic sections such as introduction, importance, threats, and conservation. 
+                            These sections are wrapped in styled content blocks with consistent padding, border-radius, and box shadows to create visual depth and separation. Typography is controlled through properties like "font-size", "line-height", and "color" to enhance readability and create hierarchy between headings and paragraph content. Background colors like white and soft blues are chosen to reflect the ocean theme while maintaining contrast and clarity. 
+                            Images are integrated within each section using responsive styles to ensure they scale proportionally on different screen sizes. Each image is center-aligned with borders and rounded corners to maintain a modern, cohesive visual appearance. The layout uses media queries to adapt on smaller devices, ensuring the content remains accessible and well-formatted across screen sizes. The fixed "Go to Top" button improves user navigation and is styled with shadows and hover transitions for interactivity. 
+                            Overall, this design leverages semantic HTML structure for clarity and maintainability while CSS is used not only for aesthetics but also to enhance usability, structure, and content flow.</p><br>
+
+                    <h3>Accessibility</h3><br>
+                        <p>Accessibility has been thoughtfully integrated into this page to ensure that it is usable and inclusive for a diverse range of users, including those relying on assistive technologies. The layout uses clear section headings and descriptive link labels to enhance navigability for screen readers. Anchor-based in-page navigation allows users to skip directly to relevant content, reducing the need for excessive scrolling — particularly helpful for users with mobility impairments.
+                            Alt text is provided for all images to describe their content for users who are visually impaired, ensuring that essential visual information is conveyed even without sight. The chosen font, color contrast, and generous line spacing contribute to visual clarity, which benefits users with low vision or reading difficulties. 
+                            Color choices were carefully made to meet WCAG contrast guidelines, especially between text and background colors, improving overall legibility.Interactive elements like the “Go to Top” button are designed with keyboard accessibility in mind and are styled clearly with hover effects for better visibility. The side navigation remains visible as users scroll, helping those with cognitive disabilities maintain orientation on the page. Moreover, the structure of the HTML ensures a logical reading order, which is crucial for assistive technologies to interpret the content correctly.
+                            Altogether, these features promote a more accessible, user-friendly experience for all visitors, reinforcing the site’s commitment to inclusive design.
+                        </p><br>
+
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#contentVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the content page</h3><br>
+                        <p><a href="../content page/contentpage_ST2.html">Include a link to the actual page you describe.</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2><br>
+                    <p>During the development of the PlanetBlue website’s home page, table page, and content page, several technical and design challenges emerged that required careful problem-solving and adaptation. One significant challenge was ensuring consistent responsive layouts across different screen sizes and devices. Each page had unique layout demands—the home page with its content-rich card grid, the table page displaying detailed multi-column data, and the content page featuring a sticky side navigation alongside multi-section content. 
+                        Early on, the use of fixed widths and padding sometimes caused overlapping or awkward content wrapping. This was resolved by employing CSS grid and flexbox techniques more effectively, using relative units instead of fixed pixel values, and adding media queries to make the layouts fluid and adaptable, thus maintaining readability and usability on desktops, tablets, and mobiles. Another challenge was integrating accessibility features while incorporating visual elements like icons and interactive buttons. 
+                        Initially, some icons lacked descriptive alternative text or ARIA labels, which could confuse screen reader users. Addressing this involved adding appropriate aria-label attributes and descriptive texts to icons and buttons, improving the inclusivity and navigability of the website for users with disabilities. Implementing the sticky side navigation on the content page also proved challenging due to conflicts between the position: sticky CSS property and other global or parent container styles. 
+                        Through testing and isolating conflicting CSS rules, this behavior was fine-tuned to ensure the side navigation remained fixed in view without disrupting the overall layout or causing unwanted spacing issues. The table page required balancing semantic HTML structure with modern visual styling, such as rounded corners, shadows, and hover effects. It was important to maintain correct use of HTML table elements to preserve accessibility and readability while applying CSS properties like border-collapse and box-shadow for a polished appearance. 
+                        Furthermore, managing relative file paths for navigation links and resources across multiple nested folders was complex. Careful folder organization and consistent path referencing ensured that links and assets loaded correctly across all pages. These challenges collectively reinforced key lessons in web development. Planning flexible and responsive CSS layouts early in the design process proved essential for cross-device compatibility. Maintaining semantic and accessible HTML structure ensured that the website remained usable for all visitors, including those relying on assistive technologies. 
+                        Regular testing across browsers and devices helped catch layout inconsistencies and bugs. Finally, a well-organized project structure facilitated easier asset management and navigation linking. Through overcoming these obstacles, the final website achieved a user-friendly, visually appealing, and accessible experience that aligns with modern web standards and best practices.</p><br> 
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2><br>
+                    <p>The web pages developed for this project have been created with careful consideration of Janet regulations governing web page publication, particularly focusing on accessibility, privacy, and security standards. Janet requires that public-facing websites be accessible to all users, including those with disabilities, which aligns closely with the Web Content Accessibility Guidelines (WCAG). 
+                        To meet these requirements, semantic HTML tags have been used throughout the pages to ensure clear document structure, and ARIA attributes have been applied where necessary—especially in navigation menus, tables, and interactive elements—to support screen readers and other assistive technologies. Alt attributes are provided for all meaningful images, ensuring that visual content is accessible to users who rely on text descriptions. In terms of privacy and security compliance, the pages do not collect or store any personal user data directly. 
+                        However, the navigation links and content reflect a structure that would allow secure handling of user interactions, such as login or feedback pages, which would be implemented with appropriate data protection measures in a full deployment. Additionally, external resources like Google Fonts and Font Awesome icons are loaded via HTTPS to ensure secure content delivery. The site avoids any use of outdated or insecure technologies and maintains a clean, standards-compliant codebase that aligns with Janet’s expectations for reliable and maintainable web content. 
+                        Furthermore, the design is tested across multiple browsers and devices to maintain consistent functionality and user experience, which is critical for compliance with Janet’s guidance on quality and usability. By following these principles, the website meets Janet’s fundamental requirements for accessibility, security, and professionalism in web publication, making it fit for educational and institutional use within the Janet network environment. 
+                        Any limitations, such as the lack of user data handling or advanced security measures, are acknowledged as beyond the current scope but would be addressed in a live production setting to maintain full compliance.</p><br> 
+
+                    
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2><br>
+                <p>Google Fonts (2025) Google Fonts. Available at: https://fonts.google.com/ (Last accessed: 6 July 2025).</p><br>
+                    <p>Font Awesome (2025) Font Awesome Icons. Available at: https://fontawesome.com/ (Last accessed: 6 July 2025).</p><br>
+                    <p>MDN Web Docs (2025) HTML elements reference. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element (Last accessed: 6 July 2025).</p><br>
+                    <p>MDN Web Docs (2025) CSS reference. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference (Last accessed: 6 July 2025).</p><br>
+                    <p>W3C (2025) Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/TR/WCAG21/ (Last accessed: 6 July 2025).</p><br>
+                    <p>Duckett, J., 2011. HTML and CSS: Design and Build Websites. John Wiley & Sons, Indianapolis.</p><br>
+                    <p>Janet (2025) Janet Web Publishing Guidelines. Available at: https://community.jisc.ac.uk/library/janet-services-documentation/web-publishing-guidelines (Last accessed: 6 July 2025).</p>
+                    <br>
+
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+
+        <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
+            <ul class="top-level-ul">
+                <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
+                
+                <li>Student 2</li>
+                    <ul>
+                        <li><a href="#Home page">Home page </a></li>
+                        <li><a href="#Table">Table page</a></li>
+                        <li><a href="#ontent">Content page</a></li>
+                    </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+                <p>
+                    Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                    resources, and community engagement for a cleaner, healthier planet.
+                </p>
+            </div>
+
+            <div class="footer-section links">
+                <h3><u>Links</u></h3>
+                <ul>
+                    <li><a href="../home page/homepage.html">Home</a></li>
+                    <li><a href="../volunteer page/volunteer.html">Volunteer</a></li>
+                    <li><a href="../user profile page/userprofile.html">Profile</a></li>
+                    <li><a href="../feedback page/feedback.html">Feedback</a></li>
+                    <li><a href="../sitemap.html">Sitemap</a></li>
+                    <li><a href="../team page/team.html">Team</a></li>
+                    <li><a href="../table/table.html">Table</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section editors">
+                <h3><u>Editors</u></h3>
+                <ul>
+                    <li><a href="../Editors page/pageEditor_ST1.html">Student 1</a></li>
+                    <li><a href="../Editors page/pageEditor_ST2.html">Student 2</a></li>
+                    <li><a href="../Editors page/pageEditor_ST3.html">Student 3</a></li>
+                    <li><a href="../Editors page/pageEditor_ST4.html">Student 4</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-info">
+                <h3><u>Contact</u></h3>
+                <ul>
+                    <li>Email: info@lifebelowwater.org</li>
+                    <li>Phone: +94 11 2238178</li>
+                    <li>Address: 172/9 Greenway street,<br>Colombo, Sri Lanka</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
+    </footer>
+</body>
+</html>
