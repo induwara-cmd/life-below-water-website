@@ -15,9 +15,8 @@ body {
 }
 
 .wrapper {
-  max-width: auto;
   margin: auto;
-  padding: auto;
+  
 }
 
 .main-heading {
