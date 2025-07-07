@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validator Page Student - provide your student name</title>
-
-    <link rel="stylesheet" href="css/pageEditor_validator.css"> <!-- External CSS link -->
+    <link rel="stylesheet" href="pageEditor_validator.css">
+    <link rel="stylesheet" href="../global/global.css"> <!-- External CSS link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -14,11 +15,20 @@
     <!-- Update the header and the footer to be consistent with the rest of the pages you implemented -->
 
     <header id="top">
-        <h1>Replace the header with your teams' website header</h1>
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="../home_page/homepage.html">Home</a>
+            <a href="../volunteer_page/volunteer.html">Volunteer</a>
+            <a href="../user_profile_page/userprofile.html">Profile</a>
+            <a href="../feedback_page/feedback.html">Feedback</a>
+            <a href="../Site_map/sitemap.html">Sitemap</a>
+            <a href="../team_page/team.html">Team</a>
+            <a href="../table/table.html">Table</a>
+        </nav>
     </header>
 
     <section class="stud">
-        <h2>Student name, student role</h2>
+        <h2>B D C Bevan Steferd, student 02</h2>
     </section>
 
     <div class="container">
@@ -28,32 +38,43 @@
             <!-- Update the content of the following sections with the information that corresponds to the pages you implemented  -->
 
             <section>
-                <h2 id="splashVal">Splash Page validation report</h2>
-                    <p>Include a short reflection on the validation report for the pages you implemented.</p> 
-                    <img src="validationSnapshots/validation_splash.png">
+                <h2 id="Homeval">Home Page validation report</h2><br>
+                    <p>The homepage was validated using the W3C Markup Validation Service to ensure it adhered to modern HTML5 standards. 
+                        Initially, the page contained minor issues such as unnecessary trailing slashes on void elements like "meta" and "img", and improper nesting of a "footer" element inside another "footer", which is not allowed in HTML. 
+                        These issues were corrected by removing the self-closing slashes and restructuring the footer section to maintain proper tag hierarchy. Additionally, semantic elements and proper heading tags were reviewed to ensure accessibility and logical document structure. 
+                        After making the necessary corrections, the homepage passed validation successfully with zero errors or warnings. This process enhanced the page’s overall code quality, browser compatibility, and accessibility, ensuring it meets web standards and provides a better experience for users.</p><br> 
+                    <img src="validation_imgST2/home_valid_html.png"><br>
+                    <img src="validation_imgST2/home_valid_css.png"><br>
                                     
-                <h3>Back to Page Editor page</h3>
-                    <p><a href="pageEditor_ST0.html#splash">Include a link back to the corresponding section of the Page Editor.</a></p>
+                <h3>Back to home Editor page</h3><br>
+                    <p><a href="pageEditor_ST2.html#Home page">Click here.</a></p><br>
                 <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
             </section>
 
             <section>
-                <h2 id="volunteerVal">Volunteer Page validation report</h2>
-                <p>Include a short reflection on the validation report for the pages you implemented.</p>
-                    <img src="validationSnapshots/validation_splash.png">
+                <h2 id="Tableval">Table Page validation report</h2><br>
+                <p>The table page was validated using the W3C Markup Validation Service to ensure compliance with HTML5 standards. 
+                    Initially, the validator reported warnings about the possible misuse of "aria-label" attributes inside "td" elements, especially when used alongside icons for verification. 
+                    These warnings were addressed by ensuring proper semantic structure and relying on clear visual and text-based indicators. Additionally, a missing heading inside the "section" element was flagged, which was resolved by adding an appropriate "h2" tag to improve accessibility and clarity. 
+                    The nested "footer" issue was also fixed by keeping only one properly structured "footer" element. After making these adjustments, the table page passed validation without any critical errors, ensuring the page is semantically correct, accessible, and aligned with best practices in web development.</p><br>
+                    <img src="validation_imgST2/table_valid_html.png"><br>
+                    <img src="validation_imgST2/table_valid-css.png"><br>
                                     
-                <h3>Back to Page Editor page</h3>
-                    <p><a href="pageEditor_ST0.html#volunteer">Include a link back to the corresponding section of the Page Editor.</a></p>
+                <h3>Back to Page Editor page</h3><br>
+                    <p><a href="pageEditor_ST2.html#Table">Click here.</a></p><br>
                 <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
             </section></a></p>
 
             <section>
-                <h2 id="contentVal">Content Page validation report</h2>
-                <p>Include a short reflection on the validation report for the pages you implemented.</p>
-                    <img src="validationSnapshots/validation_splash.png">
+                <h2 id="Contentval">Content Page validation report</h2><br>
+                <p>The content page was validated using the W3C Markup Validation Service to ensure proper HTML5 structure and accessibility. 
+                    During the validation, some minor issues were identified, such as the incorrect use of the "br" tag with a closing slash (</br>) and unnecessary trailing slashes in self-closing tags like "meta" and "img". 
+                    These were corrected by removing the invalid closing tags and trailing slashes to follow HTML5 standards. No critical structural or accessibility errors were found. 
+                    After making the necessary corrections, the page passed the validation successfully, confirming that the content page is well-structured, accessible, and adheres to modern web development standards.</p><br>
+                    <img src="validation_imgST2/content_valid.png"><br>
                                     
-                <h3>Back to Page Editor page</h3>
-                    <p><a href="pageEditor_ST0.html#content">Include a link back to the corresponding section of the Page Editor.</a></p>
+                <h3>Back to Page Editor page</h3><br>
+                    <p><a href="pageEditor_ST2.html#content">Click here.</a></p><br>
                 <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
             </section></a></p>
 
@@ -63,41 +84,70 @@
 
         <!-- Sidebar area -->
         <aside>
-            <h3>Core pages developed:</h3>
+            <h3>Core pages developed:</h3><br>
 
         <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
             <ul class="top-level-ul">
                 <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
-                <li>Student 1</li>
-                    <ul> 
-                        <li><a href="#splashVal">Splash page validation</a></li>
-                        <li><a href="#volunteerVal">Volunteer page validation</a></li>
-                        <li><a href="#contentVal">Content page validation</a></li>
-                    </ul>
-                <li>Student 2</li>
+                <li>Student 2</li><br>
                     <ul>
-                        <li><a href="#">Home page </a></li>
-                        <li><a href="#">Table page</a></li>
-                        <li><a href="#">Content page</a></li>
-                    </ul>
-                <li>Student 3</li>
-                    <ul>
-                        <li><a href="#">Feedback page</a> </li>
-                        <li><a href="#">Team page</a></li>
-                        <li><a href="#">Content page</a></li>
-                    </ul>
-                <li>Student 4</li>
-                    <ul>
-                        <li><a href="#">Profile page </a></li>
-                        <li><a href="#">Sitemap page</a></li>
-                        <li><a href="#">Content page</a></li>
+                        <li><a href="#Homeval">Home page </a></li><br>
+                        <li><a href="#Tableval">Table page</a></li><br>
+                        <li><a href="#Contentval">Content page</a></li><br>
                     </ul>
             </ul>
         </aside>
     </div>
 
-    <footer>
-        <p>Replace the footer with your teams' website footer</p>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+                <p>
+                    Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                    resources, and community engagement for a cleaner, healthier planet.
+                </p>
+            </div>
+
+            <div class="footer-section links">
+                <h3><u>Links</u></h3>
+                <ul>
+                    <li><a href="../home_page/homepage.html">Home</a></li>
+                    <li><a href="../volunteer_page/volunteer.html">Volunteer</a></li>
+                    <li><a href="../user_profile_page/userprofile.html">Profile</a></li>
+                    <li><a href="../feedback_page/feedback.html">Feedback</a></li>
+                    <li><a href="../Site_map/sitemap.html">Sitemap</a></li>
+                    <li><a href="../team_page/team.html">Team</a></li>
+                    <li><a href="../table/table.html">Table</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section editors">
+                <h3><u>Editors</u></h3>
+                <ul>
+                    <li><a href="../Editors_page/pageEditor_ST1.html">Student 1</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST2.html">Student 2</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST3.html">Student 3</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST4.html">Student 4</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-info">
+                <h3><u>Contact</u></h3>
+                <ul>
+                    <li>Email: info@lifebelowwater.org</li>
+                    <li>Phone: +94 11 2238178</li>
+                    <li>Address: 172/9 Greenway street,<br>Colombo, Sri Lanka</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
     </footer>
 </body>
 </html>
