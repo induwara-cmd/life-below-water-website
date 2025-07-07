@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B M T U Induwara Bandara - Student 01</title>
+
+    <link rel="stylesheet" href="pageEditor_validator.css"> <!-- External CSS link -->
+    <link rel="stylesheet" href="../global/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Update the header and the footer to be consistent with the rest of the pages you implemented -->
+
+    <header id="top">
+        <img class="img" src="aqua5.jpg" alt="logo aquaverse">
+        <nav class="navigation">
+            <a href="../home_page/homepage.html">Home</a>
+            <a href="../volunteer_page/volunteer.html">Volunteer</a>
+            <a href="../user_profile_page/userprofile.html">Profile</a>
+            <a href="../feedback_page/feedback.html">Feedback</a>
+            <a href="../Site_map/sitemap.html">Sitemap</a>
+            <a href="../team_page/team.html">Team</a>
+            <a href="../table/table.html">Table</a>
+        </nav>
+    </header>
+
+    <section class="stud">
+        <h2>B M T U Induwara Bandara, student 01</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+
+            <!-- Update those first three sections for the pages you were responsible to implement -->
+
+            <section>
+                <h2 id="Splash screen">Splash screen</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p style="text-align: justify;">This code creates a visually appealing splash screen for a website with the theme “Life Below Water”. The splash screen auto-redirects to the homepage after 4 seconds using: &lt;meta http-equiv=&quot;refresh&quot; content=&quot;4; url=../home_page/homepage.html&quot;&gt;</p><br>
+                        <p style="text-align: justify;">
+                            The key components of this webpage include a structured HTML layout and CSS-based design. The <code>&lt;div class="ripple-shower"&gt;</code> creates animated ripple effects at the top center of the screen, while <code>&lt;header class="header"&gt;</code> displays social media icons aligned to the right. The main visual area is structured within <code>&lt;div class="banner"&gt;</code>, which features a full-screen background and two sections: <code>.left-info</code> showing the title "AQUA" along with a list of group members, and <code>.right-info</code> presenting "VERSE" and a slogan. The CSS styling uses the Poppins font, ensures full responsiveness with <code>width: 100%</code> and <code>height: 100vh</code>, and applies a translucent blur effect (<code>backdrop-filter: blur(20px)</code>) through the <code>.penetrate-blur</code> class to improve text readability. Ripple animations are defined using <code>@keyframes</code> to simulate water-like motion by scaling and fading circles, and the icons are loaded via the Boxicons CDN. Additionally, three ripple circles animate sequentially using the <code>.ripple</code>, <code>.delay1</code>, and <code>.delay2</code> classes to create a dynamic visual effect.
+                        </p>
+                    
+                    <br>
+                    <h3>Accessibility</h3><br>
+                        <p style="text-align: justify;">
+                            While visually appealing, the current splash screen lacks several critical accessibility features. It does have some strengths, such as semantic HTML usage with elements like &lt;header&gt;, &lt;ul&gt;, &lt;h1&gt;, and &lt;h2&gt;, which help screen readers understand the structure, and the image uses alt text (&lt;img src="Images/background.jpg" alt="Under water picture."&gt;), aiding visually impaired users. Additionally, social media icons are wrapped in &lt;a&gt; tags, making them accessible via keyboard and screen readers. However, several accessibility issues remain: the white text and icons over bright background areas may have poor color contrast, which can be problematic for users with low vision. Focus indicators are missing, so keyboard users may not see where they are navigating. There's no "skip to content" link to help users bypass decorative elements. Decorative elements like <code>.ripple-shower</code> lack <code>aria-hidden="true"</code>, which can confuse screen readers. Animations might cause discomfort for users with motion sensitivity; this can be addressed using the <code>@media (prefers-reduced-motion: reduce)</code> query to disable such effects. Lastly, the automatic redirect after 4 seconds could be frustrating for slow readers or screen reader users. It's best to include a manual link such as “Click here if you are not redirected automatically”.
+                        </p>
+                        <br>
+                    
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST1.html#splashVal">Validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    <h3>Link to the Splash screen</h3><br>
+                        <p><a href="../splash_screen/splash.html">Splash screen page</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="Volunteer">Volunteer Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p style="text-align: justify;">This volunteer page is a well-structured, responsive HTML document styled primarily with CSS, using the Poppins font for modern typography. It features a fixed header with a logo and clear navigation links, followed by a hero section encouraging users to join marine conservation efforts. The page includes a sortable volunteer programs section displayed in a grid layout with cards showcasing different initiatives, each containing images, descriptions, and call-to-action buttons. User reviews are presented in a responsive card layout, and a feedback form with accessible input fields allows users to submit comments. The design incorporates smooth hover effects, consistent spacing, and adaptive layouts to ensure usability across devices from desktops to mobile. Gradients and shadows add visual depth, while media queries adjust the layout for smaller screens, ensuring a user-friendly experience.</p><br>
+
+                    <h3>Accessibility</h3><br>
+                        <p style="text-align: justify;">This page employs semantic HTML elements and provides descriptive alt text for all images, aiding screen reader users in understanding content and visuals. The navigation is keyboard-accessible with clear focusable links, and form fields include placeholders to guide users in submitting feedback. Responsive design ensures content readability on various screen sizes, and color contrasts have been chosen to meet accessibility standards for sufficient visibility. Buttons and interactive elements have clear visual feedback on hover and focus states, supporting users with different interaction methods. While animations are minimal to avoid motion discomfort, the page structure facilitates easy navigation and comprehension, making it inclusive for users with disabilities.</p><br>
+
+                    <h3>Link to the Validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST1.html#volunteerVal">Validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the volunteer page</h3><br>
+                        <p><a href="../volunteer_page/volunteer.html">Volunteer page</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2><br>
+                    <h3>Technical Description</h3><br>
+                        <p style="text-align: justify;">This content page is built with semantic HTML and styled using custom CSS to present educational information about endangered marine species. It features a responsive two-column layout, with a sticky vertical navigation menu on the left for quick access to various sections such as Introduction, Threatened Species, Causes, Conservation, and Conclusion. Each section is wrapped in styled containers with headings, informative text, and centered images that scale responsively. The design utilizes the Poppins font for clarity and aesthetics, consistent padding and shadows for visual structure, and a prominent “Back to Top” button for improved navigation. The footer includes contact details, navigation links, and editor credits, offering a complete and cohesive user experience across screen sizes via media queries.</p><br>
+
+                    <h3>Accessibility</h3><br>
+                        <p style="text-align: justify;">This page supports accessibility by using structured headings (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;) for content hierarchy and navigation, descriptive alt text for all images to aid screen reader users, and clearly styled links with hover effects for visual feedback. The sticky side navigation provides efficient keyboard and screen reader access to key sections without scrolling. The font size and color contrast between text and background have been chosen for readability, while responsive adjustments ensure that content remains accessible on smaller screens. Additionally, the fixed "Top" button improves user mobility across long content sections, making the page more inclusive for users with mobility or visual challenges.</p><br>
+
+                    <h3>Link to the validation page</h3><br> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation_ST0.html#contentVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p><br> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the content page</h3><br>
+                        <p><a href="../content page/contentpage_ST1.html">Content page</a></p><br>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2><br>
+                    <p style="text-align: justify;">During the development of the splash screen, volunteer page, and content page, I encountered several challenges that helped me grow as a developer. The splash screen's ripple animation needed to be carefully timed to not conflict with the redirect, and positioning it visually at the top center while keeping the animation smooth was tricky. On the volunteer page, balancing layout responsiveness and clean card alignment for different screen sizes required multiple adjustments. The content page, which had long-form educational material and internal navigation, demanded attention to readability and section flow. Through these experiences, I learned the importance of consistent class usage, mobile-first design, and organizing HTML for better collaboration and reusability.</p><br> 
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2><br>
+                    <p style="text-align: justify;">I ensured that the pages I created complied with key web development standards. All HTML was validated against W3C guidelines, and semantic elements like &lt;section&gt;, &lt;nav&gt;, and &lt;header&gt; were used for better accessibility. All images included descriptive alt text, and font and color combinations were selected to ensure sufficient contrast. Interactive components like buttons and links were styled with clear hover effects for usability. External resources like Google Fonts and Boxicons were properly linked via CDNs, ensuring reliability and speed. Throughout development, I followed best practices for structure, responsiveness, and code clarity.</p><br>                  
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2><br>
+                <p style="text-align: justify;">The resources I used while creating my pages included trusted documentation platforms like W3Schools and MDN Web Docs for HTML and CSS references. For design inspiration and layout ideas, I referred to various conservation-themed websites. YouTube tutorials were helpful for implementing ripple effects and responsive card designs. All fonts were sourced from Google Fonts, and iconography was implemented using Boxicons via CDN. The images used were either group-created, royalty-free, or credited accordingly, and were optimized with alt text for accessibility. These references supported the design and technical accuracy of the pages.</p>
+                <br>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3><br>
+
+        <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
+            <ul class="top-level-ul">
+                <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
+                
+                <li>Student 1</li><br>
+                    <ul>
+                        <li><a href="#Splash screen">Splash screen </a></li><br>
+                        <li><a href="#Volunteer">Volunteer page</a></li><br>
+                        <li><a href="#content">Content page</a></li><br>
+                    </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li><br>
+                <li><a href="#compliance">Compliance</a></li><br>
+                <li><a href="#ref">References</a></li><br>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <img src="aqua5.jpg" alt="Life Below Water Logo" class="footer-logo">
+                <p>
+                    Life Below Water project promotes ocean conservation and marine sustainability through informative content, 
+                    resources, and community engagement for a cleaner, healthier planet.
+                </p>
+            </div>
+
+            <div class="footer-section links">
+                <h3><u>Links</u></h3>
+                <ul>
+                    <li><a href="../home_page/homepage.html">Home</a></li>
+                    <li><a href="../volunteer_page/volunteer.html">Volunteer</a></li>
+                    <li><a href="../user_profile_page/userprofile.html">Profile</a></li>
+                    <li><a href="../feedback_page/feedback.html">Feedback</a></li>
+                    <li><a href="../Site_map/sitemap.html">Sitemap</a></li>
+                    <li><a href="../team_page/team.html">Team</a></li>
+                    <li><a href="../table/table.html">Table</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section editors">
+                <h3><u>Editors</u></h3>
+                <ul>
+                    <li><a href="../Editors_page/pageEditor_ST1.html">Student 1</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST2.html">Student 2</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST3.html">Student 3</a></li>
+                    <li><a href="../Editors_page/pageEditor_ST4.html">Student 4</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-info">
+                <h3><u>Contact</u></h3>
+                <ul>
+                    <li>Email: info@lifebelowwater.org</li>
+                    <li>Phone: +94 11 2238178</li>
+                    <li>Address: 172/9 Greenway street,<br>Colombo, Sri Lanka</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Life Below Water. All Rights Reserved.</p>
+            <p><small>This website follows accessibility guidelines and is validated to W3C standards.</small></p>
+        </div>
+    </footer>
+</body>
+</html>
