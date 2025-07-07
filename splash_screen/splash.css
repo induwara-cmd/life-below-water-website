@@ -128,3 +128,49 @@
     transform: translateY(-300%);
     margin-left: 50px;
 }
+
+.ripple-shower {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.ripple-shower .ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -30px 0 0 -30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.6), transparent 70%);
+    animation: rippleAnim 1.8s infinite ease-out;
+    opacity: 0;
+}
+
+.ripple-shower .delay1 {
+    animation-delay: 0.6s;
+}
+.ripple-shower .delay2 {
+    animation-delay: 1.2s;
+}
+
+@keyframes rippleAnim {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(4);
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(7);
+        opacity: 0;
+    }
+}
